@@ -1,0 +1,79 @@
+	/* STYLESHEET */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cinzel&display=swap');
+body {
+	background: url(file:///C:/Users/Sarah/Desktop/Young%20Gods/Site/keiran.png) right top no-repeat, url(file:///C:/Users/Sarah/Desktop/Young%20Gods/Site/aven.png) left top no-repeat, url(file:///C:/Users/Sarah/Desktop/Young%20Gods/Site/background.png) top center no-repeat;
+	background-color: rgb(51,32,133);
+	margin: 0;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 12pt;
+}
+.container {
+	background: rgb(105,78,255);
+	min-height: 1000px;
+	width: 800px;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+nav {
+	position: relative;
+	width: 900px;
+	margin: auto;
+	margin-top: 50px;
+}
+nav .pagenav {
+	position: absolute;
+	left: 60;
+	bottom: 0;
+}
+nav .pagenav a {
+	opacity: 0.6;
+}
+nav .pagenav a:hover {
+	opacity: 1.0;
+}
+nav .navbox {
+	position: absolute;
+	right: 40;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10;
+	font-size: 15pt;
+	border-radius: 4px;
+}
+.navbox a {
+	padding: 7px 14px;
+	color: rgb(255,255,94);
+	text-decoration: none;
+	opacity: 0.7;
+	font-family: 'Cinzel', serif;
+}
+.navbox a:hover {
+	text-decoration: overline;
+	opacity: 1.0;
+}
+.content {
+	padding: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.container img {
+	margin: auto;
+}
+footer {
+	text-align: center;
+	color: rgb(255,255,94);
+	font-size: 10pt;
+	padding: 50px;
+}
+footer a {
+	color: rgb(255,255,94);
+	text-decoration: underline;
+}
+footer a:hover {
+	text-decoration: none;
+}
