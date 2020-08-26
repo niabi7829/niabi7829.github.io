@@ -1,7 +1,7 @@
 	/* STYLESHEET */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cinzel&display=swap');
 body {
-	background: url(/keiran.png) right top no-repeat, url(/aven.png) left top no-repeat, url(/background.png) top center no-repeat;
+	background: url(keiran.png) right top no-repeat, url(aven.png) left top no-repeat, url(background.png) top center no-repeat;
 	background-color: rgb(51,32,133);
 	margin: 0;
 	font-family: 'Alegreya Sans', sans-serif;
