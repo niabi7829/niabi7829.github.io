@@ -1,9 +1,9 @@
-/*
-	CSS by Niabi (#12903)
-	Please do not edit, share, or resell this code.
-*/
+	/*
+		CSS by Niabi (#12903)
+		Please do not edit, share, or resell this code.
+	*/
 
-/* CSS CREDIT */
+	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	content: "by Niabi (#12903)";
 	color: rgba(255, 255, 255, 1);
@@ -11,10 +11,13 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	right: 3%;
 }
 
+	/* MAIN */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Reenie+Beanie&display=swap');
 body {
 	  background: url("https://cutewallpaper.org/21/black-wolf-wallpapers/Hands-holding-down-a-black-wolf-wallpaper-Digital-Art-.jpg") fixed no-repeat center !important;
 	background-size: cover;
 	color: #000;
+	font-family: 'Reenie Beanie', cursive;
 }
 a {
 	text-decoration: none;
