@@ -5,20 +5,23 @@
 
 	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
-	content: "by Niabi (#12903)";
+	content: "CSS by Niabi (#12903)";
 	color: rgba(255, 255, 255, 1);
 	position: absolute;
 	right: 3%;
 }
 
-	/* MAIN */
+	/* DEN BOXES */
+
+	/* WHOLE PAGE */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Reenie+Beanie&display=swap');
 body {
 	  background: url("https://cutewallpaper.org/21/black-wolf-wallpapers/Hands-holding-down-a-black-wolf-wallpaper-Digital-Art-.jpg") fixed no-repeat center !important;
 	background-size: cover;
 	color: #000;
-	font-family: 'Reenie Beanie', cursive;
+	font-family: 'Reenie Beanie', cursive !important;
 }
+	/* LINKS */
 a {
 	text-decoration: none;
 	color:#93bd3b;
@@ -27,3 +30,33 @@ a:hover {
 	text-decoration: none;
 	color:#75962f;
 }
+
+	/* NAVBAR */
+
+	/* STATUS NAVEBAR */
+
+	/* BREADCRUMB NAVBAR */
+
+	/* MAIN CONTAINER */
+#main {
+	background: none!important;
+}
+
+	/* TABLES */
+
+	/* SIDEBAR */
+/* energy, pup survival chance */
+/* lead wolf hunger, mood */
+/* lead wolf HP, other wolves' hunger */
+/* lead wolf EXP, other wolves' HP */
+
+	/* BUTTONS */
+/* updates & save changes */
+/* expand territory */
+/* report a bug */
+
+	/* OTHER */
+/* information alerts */
+/* scrollbars */
+/* tooltips */
+/* html */
