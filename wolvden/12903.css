@@ -59,10 +59,11 @@ a:hover {
 	padding-bottom: 21px;
 }
 #header .navbar-status a {
-	color: #93bd3b;
+	color: #fff;
 }
 #header .navbar-status a:hover {
-	color: #75962f;
+	color: #fff;
+	text-decoration: underline;
 }
 #header .text-dark {
 	color: #fff;
@@ -84,13 +85,25 @@ a:hover {
 	border: transparent;
 }
 .nav-tabs .nav-link.active {
-	background-color: rgba(139, 112, 126, 0.5);
-	color: rgba(255, 255, 255, 1);
-	border-radius: 10px;
+	background-color: rgba(0,0,0,0.0);
+	color:#fff;
 }
 .nav-tabs .nav-link {
 	margin-right: 0.5rem;
 	border-radius: 10px;
+}
+#main .card {
+	background: rgba(245, 228, 220, 0.7);
+	border-radius: 10px;
+}
+.card-header {
+	border: none;
+}
+img, .form-control, .note-btn {
+	border-radius: 10px;
+}
+.card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
+	border-radius: 10px 10px 0px 0px;
 }
 
 	/* TABLES */
