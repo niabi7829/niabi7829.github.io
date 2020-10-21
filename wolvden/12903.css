@@ -107,20 +107,114 @@ img, .form-control, .note-btn {
 }
 
 	/* TABLES */
+.table {
+	background: rgba(0,0,0,0.0);
+	border: none;
+}
+.table th {
+	background: rgba(0,0,0,0.0);
+}
+.table th a {
+	color: #93bd3b;
+}
+.table th a:hover {
+	color: #75962f;
+}
+.table .subheader {
+	background: rgba(0,0,0,0.0);
+}
+.table .left {
+	background: rgba(0,0,0,0.0);
+}
+.table-striped tbody tr:nth-of-type(odd) {
+	background: rgba(0,0,0,0.0);
+}
+.table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background: rgba(0,0,0,0.0);
+}
+.table td.bottom {
+	background: rgba(0,0,0,0.0);
+}
+/* dropdown selectors */
+.form-control, .s-chat-sidebar #label_currentChannel, .note-toolbar .note-btn {
+}
+/* den/profile editing area */
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+}
+.note-toolbar {
+}
 
 	/* SIDEBAR */
+#sidebar {
+	background: rgba(0,0,0,0.0);
+}
+#sidebar .multi-column {
+	padding-top: 15px;
+}
+#sidebar .card {
+	background-color: rgba(0,0,0,0.0);
+	border-bottom: none;
+}
+/progress {
+	background: #fff !important;
+}
 /* energy, pup survival chance */
+.bg-warning, #main .bg-success {
+	background: #75962f;
+}
 /* lead wolf hunger, mood */
+#sidebar .bg-danger, .bg-primary {
+	background: #75962f;
+}
 /* lead wolf HP, other wolves' hunger */
+#sidebar .bg-info, #main .bg-danger {
+	background: #75962f;
+}
 /* lead wolf EXP, other wolves' HP */
+#sidebar .bg-success, #main .bg-info {
+	background: #75962f;
+}
+#chatMessagePinned.s-chat-message_pinned {
+	background: rgba(0,0,0,0.0);
+	padding: 5px;
+}
+s-chat-sidebar #chatMessageList {
+	height: 370px;
+}
+.s-chat.message:nth-child(odd) {
+	background: rgba(0,0,0,0.0);
+}
+.s-chat-message:nth-child(even) {
+	background: rgba(0,0,0,0.0);
+}
 
 	/* BUTTONS */
 /* updates & save changes */
+.btn-primary, btn-success {
+}
+.btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
+}
 /* expand territory */
+.btn-warning {
+}
+.btn-warning:hover, .btn-warning:focus;
 /* report a bug */
+.btn-danger {
+}
+.btn-danger:hover
 
 	/* OTHER */
 /* information alerts */
+.alert-info {
+}
+.alert-success {
+}
 /* scrollbars */
+::-webkit-scrollbar {
+}
+::-webkit-scrollbar-thumb {
+}
 /* tooltips */
+.tooltip-inner {
+}
 /* html */
