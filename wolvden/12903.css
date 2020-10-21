@@ -161,18 +161,22 @@ img, .form-control, .note-btn {
 /* energy, pup survival chance */
 .bg-warning, #main .bg-success {
 	background: #75962f !important;
+	margin: 1px !important;
 }
 /* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
 	background: #75962f !important;
+	margin: 1px !important;
 }
 /* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
 	background: #75962f !important;
+	margin: 1px !important;
 }
 /* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
 	background: #75962f !important;
+	margin: 1px !important;
 }
 #chatMessagePinned.s-chat-message_pinned {
 	background: rgba(0,0,0,0.0);
