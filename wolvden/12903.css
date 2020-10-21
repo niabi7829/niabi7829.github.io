@@ -155,28 +155,25 @@ img, .form-control, .note-btn {
 	background-color: rgba(0,0,0,0.0);
 	border-bottom: none;
 }
-/progress {
+.progress {
 	background: #fff !important;
+	margin: 1px;
 }
 /* energy, pup survival chance */
 .bg-warning, #main .bg-success {
 	background: #75962f !important;
-	margin: 1px !important;
 }
 /* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
 	background: #75962f !important;
-	margin: 1px !important;
 }
 /* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
 	background: #75962f !important;
-	margin: 1px !important;
 }
 /* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
 	background: #75962f !important;
-	margin: 1px !important;
 }
 #chatMessagePinned.s-chat-message_pinned {
 	background: rgba(0,0,0,0.0);
@@ -184,12 +181,15 @@ img, .form-control, .note-btn {
 }
 s-chat-sidebar #chatMessageList {
 	height: 370px;
+	border: none;
 }
 .s-chat-message:nth-child(odd) {
 	background: rgba(0,0,0,0.0);
+	border-bottom: 1px solid #fff;
 }
 .s-chat-message:nth-child(even) {
 	background: rgba(0,0,0,0.0);
+	border-top: 1px solid #fff;
 }
 
 	/* BUTTONS */
