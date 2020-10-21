@@ -9,6 +9,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	color: rgba(255, 255, 255, 1);
 	position: absolute;
 	right: 3%;
+	font-size: 12pt;
 }
 
 	/* DEN BOXES */
