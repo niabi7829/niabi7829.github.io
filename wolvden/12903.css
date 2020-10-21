@@ -181,7 +181,7 @@ img, .form-control, .note-btn {
 s-chat-sidebar #chatMessageList {
 	height: 370px;
 }
-.s-chat.message:nth-child(odd) {
+.s-chat-message:nth-child(odd) {
 	background: rgba(0,0,0,0.0);
 }
 .s-chat-message:nth-child(even) {
