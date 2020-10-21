@@ -12,16 +12,25 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 }
 
 	/* DEN BOXES */
+.boxes {
+	background: rgba(0,0,0,0.0);
+	text-align: center;
+	padding: 15px;
+	margin: 0 2% 30px;
+	border-radius: 10px;
+	float: left:
+	width: 46%;
+	height: 155px;
+	overflow: auto;
+}
 
 	/* WHOLE PAGE */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Reenie+Beanie&display=swap');
 body {
 	  background: url("https://cutewallpaper.org/21/black-wolf-wallpapers/Hands-holding-down-a-black-wolf-wallpaper-Digital-Art-.jpg") fixed no-repeat center !important;
 	background-size: cover;
-	color: #000;
-	font-family: 'Reenie Beanie', cursive !important;
+	color: #fff;
 }
-	/* LINKS */
+/* links */
 a {
 	text-decoration: none;
 	color:#93bd3b;
@@ -32,14 +41,36 @@ a:hover {
 }
 
 	/* NAVBAR */
+#header .navbar-main, #footer {
+	background: rgba(0,0,0,0.0);
+}
+/* main navbar & footer links */
+#header .navbar-main .nav-link, #header .navbar-main .nav-link .fa {
+	color: green;
+}
 
-	/* STATUS NAVEBAR */
+#header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa, #footer a:hover, #footer nav .nav-item .nav-link:hover {
+	color: red;
+}
+
+	/* STATUS NAVBAR */
+#header .navbar-status {
+	background: rgba(0,0,0,0.0);
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+#header .navbar-status a:hover {
+	color:#75962f
+}
+#header .text-dark {
+	color: red;
+}
 
 	/* BREADCRUMB NAVBAR */
 
 	/* MAIN CONTAINER */
 #main {
-	background: none!important;
+	background: rgba(0,0,0,0.0);
 }
 
 	/* TABLES */
