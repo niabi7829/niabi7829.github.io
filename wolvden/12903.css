@@ -159,9 +159,11 @@ img, .form-control, .note-btn {
 	background-color: rgba(0,0,0,0.0);
 	border-bottom: none;
 }
+#sidebar .card-body .w-50 div {
+	border: none !important;
+}
 .progress {
 	background: #fff !important;
-	margin: 1px;
 }
 /* energy, pup survival chance */
 .bg-warning, #main .bg-success {
