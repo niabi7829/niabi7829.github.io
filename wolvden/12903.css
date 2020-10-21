@@ -96,6 +96,9 @@ a:hover {
 	background: rgba(0,0,0,0.0);
 	border-radius: 10px;
 }
+#main .card img {
+	border-radius: 10px;
+}
 .card-header {
 	border: none;
 }
