@@ -33,11 +33,11 @@ body {
 /* links */
 a {
 	text-decoration: none;
-	color:#93bd3b;
+	color: #93bd3b;
 }
 a:hover {
 	text-decoration: none;
-	color:#75962f;
+	color: #75962f;
 }
 
 	/* NAVBAR */
@@ -46,11 +46,10 @@ a:hover {
 }
 /* main navbar & footer links */
 #header .navbar-main .nav-link, #header .navbar-main .nav-link .fa {
-	color: green;
+	color: #93bd3b;
 }
-
 #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa, #footer a:hover, #footer nav .nav-item .nav-link:hover {
-	color: red;
+	color: #75962f;
 }
 
 	/* STATUS NAVBAR */
@@ -59,8 +58,11 @@ a:hover {
 	padding-top: 21px;
 	padding-bottom: 21px;
 }
+#header .navbar-status a {
+	color: #93bd3b;
+}
 #header .navbar-status a:hover {
-	color:#75962f
+	color: #75962f;
 }
 #header .text-dark {
 	color: red;
