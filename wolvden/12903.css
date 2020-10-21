@@ -185,7 +185,7 @@ s-chat-sidebar #chatMessageList {
 	background: rgba(0,0,0,0.0);
 }
 .s-chat-message:nth-child(even) {
-	background: rgba(0,0,0,0.0) !important;
+	background: rgba(0,0,0,0.0);
 }
 
 	/* BUTTONS */
