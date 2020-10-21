@@ -69,6 +69,12 @@ a:hover {
 }
 
 	/* BREADCRUMB NAVBAR */
+#header .breadcrumb-nav {
+	background: rgba(0,0,0,0.0);
+}
+#breadcrumb-item.active {
+	color: red;
+}
 
 	/* MAIN CONTAINER */
 #main {
