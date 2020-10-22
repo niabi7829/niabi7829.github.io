@@ -228,3 +228,35 @@ s-chat-sidebar #chatMessageList {
 .tooltip-inner {
 }
 /* html */
+.box-float-left {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	width: 200px;
+	background: #fff;
+	color: #000;
+}
+.box-float-right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 200px;
+	background: #fff;
+	color: #000;
+}
+.box-scroll {
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	overflow: auto;
+}
+.box-expand {
+	width: 500px;
+	height: 300px;
+	margin: auto;
+}
+.box-expand:hover {
+	height: 500px;
+}
