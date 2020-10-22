@@ -6,30 +6,17 @@
 	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	content: "CSS by Niabi (#12903)";
-	color: rgba(255, 255, 255, 1);
+	color: #333333;
 	position: absolute;
 	right: 3%;
 	font-size: 12pt;
-}
-
-	/* DEN BOXES */
-.boxes {
-	background: rgba(0,0,0,0.0);
-	text-align: center;
-	padding: 15px;
-	margin: 0 2% 30px;
-	border-radius: 10px;
-	float: left:
-	width: 46%;
-	height: 155px;
-	overflow: auto;
 }
 
 	/* WHOLE PAGE */
 body {
 	  background: url("https://cutewallpaper.org/21/black-wolf-wallpapers/Hands-holding-down-a-black-wolf-wallpaper-Digital-Art-.jpg") fixed no-repeat center !important;
 	background-size: cover;
-	color: #fff;
+	color: #333333;
 }
 /* links */
 a {
@@ -67,7 +54,7 @@ a:hover {
 	text-decoration: underline;
 }
 #header .text-dark {
-	color: #fff;
+	color: #333333;
 }
 
 	/* BREADCRUMB NAVBAR */
@@ -87,7 +74,7 @@ a:hover {
 }
 .nav-tabs .nav-link.active {
 	background-color: rgba(0,0,0,0.0);
-	color:#fff;
+	color: #333333;
 }
 .nav-tabs .nav-link {
 	margin-right: 0.5rem;
@@ -187,15 +174,16 @@ img, .form-control, .note-btn {
 }
 s-chat-sidebar #chatMessageList {
 	height: 370px;
-	border: none;
+	border: none !important;
+	box-shadow: none !important;
 }
-.s-chat-message:nth-child(odd) {
+.s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
 	background: rgba(0,0,0,0.0);
-	border-bottom: 1px solid #fff;
+	border-radius: 10px;
 }
-.s-chat-message:nth-child(even) {
-	background: rgba(0,0,0,0.0);
-	border-top: 1px solid #fff;
+.s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
 }
 
 	/* BUTTONS */
