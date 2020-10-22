@@ -6,7 +6,7 @@
 	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	content: "CSS by Niabi (#12903)";
-	color: #333333;
+	color: #666;
 	position: absolute;
 	right: 3%;
 	font-size: 12pt;
@@ -16,7 +16,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 body {
 	  background: url("https://cutewallpaper.org/21/black-wolf-wallpapers/Hands-holding-down-a-black-wolf-wallpaper-Digital-Art-.jpg") fixed no-repeat center !important;
 	background-size: cover;
-	color: #333333;
+	color: #666;
 }
 /* links */
 a {
@@ -54,7 +54,7 @@ a:hover {
 	text-decoration: underline;
 }
 #header .text-dark {
-	color: #333333;
+	color: #666;
 }
 
 	/* BREADCRUMB NAVBAR */
@@ -74,7 +74,7 @@ a:hover {
 }
 .nav-tabs .nav-link.active {
 	background-color: rgba(0,0,0,0.0);
-	color: #333333;
+	color: #666;
 }
 .nav-tabs .nav-link {
 	margin-right: 0.5rem;
