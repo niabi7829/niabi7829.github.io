@@ -16,7 +16,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 
 	/* WHOLE PAGE */
 body {
-	  background: url("view-source:http://hiddencrusades.com/images/mainbackground.png") fixed no-repeat center !important;
+	  background: url("http://hiddencrusades.com/images/mainbackground.png") fixed no-repeat center !important;
 	background-size: cover;
 	color: #999;
 	font-family: 'Lato', sans-serif;
