@@ -8,7 +8,7 @@
 	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	content: "CSS by Niabi (#12903)";
-	color: #999;
+	color: #000;
 	position: absolute;
 	right: 3%;
 	font-size: 12pt;
@@ -16,9 +16,9 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 
 	/* WHOLE PAGE */
 body {
-	  background: #000 url("https://niabi7829.github.io/wolvden/0001bg.png") no-repeat center;
+	background: #000 url("https://niabi7829.github.io/wolvden/0001bg.png") no-repeat;
 	background-size: 100%;
-	color: #999;
+	color: #000;
 	font-family: 'Lato', sans-serif;
 }
 	/* links */
@@ -62,7 +62,7 @@ a:hover {
 	text-decoration: underline;
 }
 #header .text-dark {
-	color: #999;
+	color: #000;
 }
 
 	/* BREADCRUMB NAVBAR */
@@ -75,14 +75,14 @@ a:hover {
 
 	/* MAIN CONTAINER */
 #main {
-	background: rgba(0,0,0,0.0);
+	background: rgb(78,88,91);
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 	border: transparent;
 }
 .nav-tabs .nav-link.active {
 	background-color: rgba(0,0,0,0.0);
-	color: #999;
+	color: #000;
 }
 .nav-tabs .nav-link {
 	margin-right: 0.5rem;
@@ -153,6 +153,8 @@ img, .form-control, .note-btn {
 }
 #sidebar .multi-column {
 	padding-top: 15px;
+	background: url("view-source:https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat;
+	background-size: cover;
 }
 #sidebar .card {
 	background-color: rgba(0,0,0,0.0);
