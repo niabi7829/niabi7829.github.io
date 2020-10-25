@@ -89,7 +89,7 @@ img, .form-control, .note-btn {
 .table th {
 	background: #222751;
 	background-image: linear-gradient(to right, #222751, #251a38);
-	color: #4b4a63;
+	color: #fff;
 }
 .table th a {
 	color: #2ec6d1;
@@ -160,33 +160,39 @@ s-chat-sidebar #chatMessageList {
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
 	border: none;
+	opacity: .8;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
 	border: none;
+	opacity: 1;
 }
 	/* expand territory */
 .btn-warning {
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
 	border: none;
+	opacity: .8;
 }
 .btn-warning:hover, .btn-warning:focus {
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
 	border: none;
+	opacity: 1;
 }
 	/* report a bug */
 .btn-danger {
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
 	border: none;
+	opacity: .8;
 }
 .btn-danger:hover {
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
 	border: none;
+	opacity: 1;
 }
 
 	/* OTHER */
