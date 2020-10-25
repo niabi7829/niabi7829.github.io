@@ -17,7 +17,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	/* WHOLE PAGE */
 body {
 	background: #222751;
-	background-image: linear-gradient(top, #222751, #251a38);
+	background-image: linear-gradient(to bottom right, #222751, #251a38);
 	background-attachment: fixed;
 	color: #000;
 	font-family: 'Lato', sans-serif;
