@@ -149,12 +149,12 @@ img, .form-control, .note-btn {
 	/* SIDEBAR */
 #sidebar {
 	background: url("https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat !important;
-	background-size: cover;
+	background-size: 100%;
 }
 #sidebar .multi-column {
 	padding-top: 15px;
 	background: url("https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat !important;
-	background-size: cover;
+	background-size: 100%;
 }
 #sidebar .card {
 	background-color: rgba(0,0,0,0.0);
