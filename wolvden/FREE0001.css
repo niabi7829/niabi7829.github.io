@@ -148,12 +148,12 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
-	background: url("view-source:https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat;
+	background: url("https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat;
 	background-size: cover;
 }
 #sidebar .multi-column {
 	padding-top: 15px;
-	background: url("view-source:https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat;
+	background: url("https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat;
 	background-size: cover;
 }
 #sidebar .card {
