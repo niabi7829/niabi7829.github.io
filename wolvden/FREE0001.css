@@ -16,128 +16,87 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 
 	/* WHOLE PAGE */
 body {
-	background: #000 url("https://niabi7829.github.io/wolvden/0001bg.png") no-repeat;
-	background-size: 100%;
+	background: #222751;
+	background: linear-gradiant(diagonally, #222751, #251a38);
+	background-attachment: fixed;
 	color: #000;
 	font-family: 'Lato', sans-serif;
+	border-top: 10px solid #2ec6d1;
 }
 	/* links */
 a {
-	text-decoration: none;
-	color: #93bd3b;
 }
 a:hover {
-	text-decoration: none;
-	color: #75962f;
 }
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
-	background: url("0001nav.png") no-repeat;
-	background-size: cover;
 }
 /* main navbar & footer links */
 #header .navbar-main .nav-link {
-	color: rgb(30,28,28);
-	text-shadow: -1px -1px 0 rgb(91,127,142), 1px -1px 0 #000, -1px 1px 0 red, 1px 1px 0 #000;
-	opacity: .6;
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
-	color: rgb(30,28,28);
-	opacity: 1;
 }
 #header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
-	color: rgb(30,28,28);
 }
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
-	background: rgba(0,0,0,0.0);
-	padding-top: 21px;
-	padding-bottom: 21px;
 }
 #header .navbar-status a {
-	color: #fff;
 }
 #header .navbar-status a:hover {
-	color: #fff;
-	text-decoration: underline;
 }
 #header .text-dark {
-	color: #000;
 }
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
-	background: rgba(0,0,0,0.0);
 }
 #breadcrumb-item.active {
-	color: red;
 }
 
 	/* MAIN CONTAINER */
 #main {
-	background: rgb(78,88,91);
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
-	border: transparent;
 }
 .nav-tabs .nav-link.active {
-	background-color: rgba(0,0,0,0.0);
-	color: #000;
 }
 .nav-tabs .nav-link {
-	margin-right: 0.5rem;
-	border-radius: 10px;
+
 }
 #main .card {
-	background: rgba(0,0,0,0.0);
-	border-radius: 10px;
 }
 #main .card img {
-	border-radius: 10px;
 }
 .card-header {
-	border: none;
 }
 img, .form-control, .note-btn {
-	border-radius: 10px;
 }
 .card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
-	border-radius: 10px 10px 0px 0px;
 }
 
 	/* TABLES */
 .table {
-	background: rgba(0,0,0,0.0);
-	border: none;
 }
 .table th {
-	background: rgba(0,0,0,0.0);
 }
 .table th a {
-	color: #93bd3b;
 }
 .table th a:hover {
-	color: #75962f;
 }
 .table .subheader {
-	background: rgba(0,0,0,0.0);
 }
 .table .left {
-	background: rgba(0,0,0,0.0);
 }
 .table-striped tbody tr:nth-of-type(odd) {
-	background: rgba(0,0,0,0.0);
 }
 .table tr.pup, .table tr.pup:nth-of-type(odd) {
-	background: rgba(0,0,0,0.0);
 }
 .table td.bottom {
-	background: rgba(0,0,0,0.0);
 }
 .table .table-striped tr:hover {
-	background: rgba(0,0,0,0.5);
 }
 	/* dropdown selectors */
 .form-control, .s-chat-sidebar #label_currentChannel, .note-toolbar .note-btn {
@@ -150,61 +109,37 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
-	background: url("https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat !important;
 }
 #sidebar .multi-column {
-	padding-top: 15px;
-	background: url("https://niabi7829.github.io/wolvden/0001side.png") fixed no-repeat !important;
 }
 #sidebar .card {
-	background-color: rgba(0,0,0,0.0);
-	border-bottom: none;
 }
 #sidebar .card-body .w-50 div {
-	border: none !important;
 }
 .progress {
-	background: #fff !important;
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
-	background: #75962f !important;
 }
 	/* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
-	background: #75962f !important;
 }
 	/* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
-	background: #75962f !important;
 }
 	/* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
-	background: #75962f !important;
 }
 	/* chatbox */
 #chatboxContainer {
-	border: none;
-	box-shadow: none;
 }
 #chatMessagePinned.s-chat-message_pinned {
-	background: #93bd3b;
-	color: #000;
-	padding: 5px;
-	border-bottom: 3px solid #75962f;
 }
 s-chat-sidebar #chatMessageList {
-	height: 370px;
-	border: none !important;
-	box-shadow: none !important;
 }
 .s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
-	background: rgba(0,0,0,0.0);
-	border-radius: 10px;
 }
 .s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
-	background: rgba(0,0,0,0.5);
-	border-radius: 10px;
 }
 
 	/* BUTTONS */
@@ -235,19 +170,4 @@ s-chat-sidebar #chatMessageList {
 }
 	/* tooltips */
 .tooltip-inner {
-}
-	/* html */
-.box-scroll {
-	width: 500px;
-	height: 300px;
-	margin: auto;
-	overflow: auto;
-}
-.box-expand {
-	width: 500px;
-	height: 300px;
-	margin: auto;
-}
-.box-expand:hover {
-	height: 500px;
 }
