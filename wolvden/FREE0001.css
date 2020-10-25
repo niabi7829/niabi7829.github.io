@@ -8,10 +8,10 @@
 	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	content: "CSS by Niabi (#12903)";
-	color: #4b4a63;
+	color: #fff;
 	position: absolute;
 	right: 3%;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 	/* WHOLE PAGE */
@@ -31,6 +31,7 @@ a:hover {
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
+	background: transparent;
 }
 /* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -153,17 +154,35 @@ s-chat-sidebar #chatMessageList {
 .btn-primary, btn-success {
 	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
 	color: #fff;
+	border: none;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
+	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
+	color: #fff;
+	border: none;
 }
 	/* expand territory */
 .btn-warning {
+	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
+	color: #fff;
+	border: none;
 }
-.btn-warning:hover, .btn-warning:focus;
+.btn-warning:hover, .btn-warning:focus {
+	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
+	color: #fff;
+	border: none;
+}
 	/* report a bug */
 .btn-danger {
+	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
+	color: #fff;
+	border: none;
 }
-.btn-danger:hover
+.btn-danger:hover {
+	background-image: linear-gradient(to right, #00b7fd, #07d9b8);
+	color: #fff;
+	border: none;
+}
 
 	/* OTHER */
 	/* information alerts */
