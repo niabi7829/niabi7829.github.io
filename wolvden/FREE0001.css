@@ -42,10 +42,11 @@ a:hover {
 	opacity: .6;
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
+	color: rgb(30,28,28);
 	opacity: 1;
 }
 #header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
-	color: #93bd3b;
+	color: rgb(30,28,28);
 }
 	
 	/* STATUS NAVBAR */
