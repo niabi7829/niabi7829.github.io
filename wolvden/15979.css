@@ -80,8 +80,7 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
-	border-radius: 30px;
-	overflow: hidden;
+	border-radius: 10px;
 	background: rgba(204,80,70,.4);
 }
 .table:hover {
@@ -98,6 +97,7 @@ img, .form-control, .note-btn {
 .table .left {
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
 }
@@ -120,10 +120,10 @@ img, .form-control, .note-btn {
 	background: transparent;
 }
 #sidebar .card {
-	background: rgba(204,80,70,.4)
-	border-radius: 30px;
+	background: rgba(204,80,70,.4);
 	border-bottom: 10px solid #991d14;
 	color: #000;
+	border-radius: 10px;
 }
 #sidebard .card:hover {
 	background: rgba(204,80,70,.8);
@@ -199,7 +199,7 @@ s-chat-sidebar #chatMessageList {
 	margin-bottom: 20px;
 	padding: 10px;
 	background: rgba(204,80,70,.4);
-	border-radius: 30px;
+	border-radius: 10px;
 	box-shadow: rgba(0,0,0,0.8);
 	min-height: 200px;
 	color: #000;
