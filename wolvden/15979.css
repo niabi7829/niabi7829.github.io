@@ -28,6 +28,7 @@ a:hover {
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
+	background: transparent;
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -54,7 +55,8 @@ a:hover {
 }
 
 	/* MAIN CONTAINER */
-#main {;
+#main {
+	background: transparent;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -103,8 +105,10 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
+	background: transparent;
 }
 #sidebar .multi-column {
+	background: transparent;
 }
 #sidebar .card {
 }
@@ -130,6 +134,7 @@ img, .form-control, .note-btn {
 }
 	/* chatbox */
 #chatboxContainer {
+	background: transparent;
 }
 #chatboxContainer a {
 }
@@ -174,4 +179,12 @@ s-chat-sidebar #chatMessageList {
 }
 	/* tooltips */
 .tooltip-inner {
+}
+	/* html*/
+.box {
+	width: 100%;
+	margin: auto;
+	background: #cc5046;
+	border-radius: 30px;
+	box-shadow: rgba(0,0,0,0.8);
 }
