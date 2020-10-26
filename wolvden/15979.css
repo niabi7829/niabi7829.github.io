@@ -24,6 +24,7 @@ body {
 a {
 }
 a:hover {
+	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 
 	/* NAVBAR */
@@ -154,16 +155,19 @@ s-chat-sidebar #chatMessageList {
 .btn-primary, btn-success {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
+	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 	/* expand territory */
 .btn-warning {
 }
 .btn-warning:hover, .btn-warning:focus {
+	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 	/* report a bug */
 .btn-danger {
 }
 .btn-danger:hover {
+	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 
 	/* OTHER */
@@ -171,14 +175,6 @@ s-chat-sidebar #chatMessageList {
 .alert-info {
 }
 .alert-success {
-}
-	/* scrollbars */
-::-webkit-scrollbar {
-}
-::-webkit-scrollbar-thumb {
-}
-	/* tooltips */
-.tooltip-inner {
 }
 	/* html*/
 .box {
