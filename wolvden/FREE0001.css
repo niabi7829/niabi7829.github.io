@@ -21,7 +21,7 @@ body {
 	background-attachment: fixed;
 	color: 	#fff;
 	font-family: 'Lato', sans-serif;
-	border-top: 5px solid #2ec6d1;
+	border-top: 10px solid #2ec6d1;
 }
 	/* links */
 a {
@@ -93,7 +93,7 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
-	border: 1px solid linear-gradient(to right, #222751, #251a38);
+	border: none;
 }
 .table th, .table td.bottom {
 	background: #222751;
@@ -142,6 +142,7 @@ img, .form-control, .note-btn {
 }
 #sidebar .card {
 	color: #2f4a5f;
+	border-bottom: 10px solid #2ec6d1;
 }
 #sidebar .card a {
 	color: #2f4a5f;
@@ -157,18 +158,30 @@ img, .form-control, .note-btn {
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
+	background: linear-gradient(to right, #00b7fd, #07d9b8);
 }
 	/* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
+	background: linear-gradient(to right, #00b7fd, #07d9b8);
 }
 	/* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
+	background: linear-gradient(to right, #00b7fd, #07d9b8);
 }
 	/* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
+	background: linear-gradient(to right, #00b7fd, #07d9b8);
 }
 	/* chatbox */
 #chatboxContainer {
+}
+#chatboxContainer a {
+	color: #2f4a5f;
+	text-decoration: underline;
+}
+#chatboxContainer a:hover {
+	color: #2f4a5f;
+	text-decoration: none;
 }
 #chatMessagePinned.s-chat-message_pinned {
 }
