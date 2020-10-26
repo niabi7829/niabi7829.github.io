@@ -41,6 +41,7 @@ a:hover {
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
+	background: transparent;
 }
 #header .navbar-status a {
 }
@@ -51,6 +52,7 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
+	background: transparent;
 }
 #breadcrumb-item.active {
 }
@@ -112,6 +114,10 @@ img, .form-control, .note-btn {
 	background: transparent;
 }
 #sidebar .card {
+	background: #cc5046;
+	border-radius: 30px;
+	border-bottom: #991d14;
+	color: #000;
 }
 #sidebar .card a {
 }
@@ -180,7 +186,15 @@ s-chat-sidebar #chatMessageList {
 .box {
 	width: 100%;
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
 	background: #cc5046;
 	border-radius: 30px;
+	box-shadow: rgba(0,0,0,0.8);
+	min-height: 200px;
+	color: #000;
+}
+.box:hover {
 	box-shadow: rgba(0,0,0,0.8);
 }
