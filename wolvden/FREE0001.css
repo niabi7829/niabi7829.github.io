@@ -116,11 +116,11 @@ img, .form-control, .note-btn {
 	background: #fff;
 	color: 	#2f4a5f;
 }
-.table-striped tbody a {
+.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
 	color: 	#2f4a5f;
 	text-decoration: underline;
 }
-.table-striped tbody a:hover {
+.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a:hover {
 	color: 	#2f4a5f;
 	text-decoration: none;
 }
