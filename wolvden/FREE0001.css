@@ -62,14 +62,14 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
-	background: rgba(255,255,255,0.4);
+	background: rgba(255,255,255,0.2);
 }
 #breadcrumb-item.active {
 }
 
 	/* MAIN CONTAINER */
 #main {
-	background: rgba(255,255,255,0.4);
+	background: rgba(255,255,255,0.2);
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -108,9 +108,14 @@ img, .form-control, .note-btn {
 }
 .table .left {
 }
+.table-striped tbody tr:nth-of-type(even) {
+	background: #fff;
+}
 .table-striped tbody tr:nth-of-type(odd) {
+	background: #fff;
 }
 .table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background:#fff;
 }
 .table td.bottom {
 }
@@ -127,7 +132,7 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
-	background: rgba(255,255,255,0.4);
+	background: rgba(255,255,255,0.2);
 }
 #sidebar .multi-column {
 	background: transparent;
