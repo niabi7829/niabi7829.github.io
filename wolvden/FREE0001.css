@@ -94,6 +94,7 @@ img, .form-control, .note-btn {
 	/* TABLES */
 .table {
 	border: none;
+	border-radius: 4px;
 }
 .table th, .table td.bottom {
 	background: #222751;
@@ -159,18 +160,22 @@ img, .form-control, .note-btn {
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
 	background: linear-gradient(to right, #00b7fd, #07d9b8);
+	border: 1px solid #222751;
 }
 	/* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
 	background: linear-gradient(to right, #00b7fd, #07d9b8);
+	border: 1px solid #222751;
 }
 	/* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
 	background: linear-gradient(to right, #00b7fd, #07d9b8);
+	border: 1px solid #222751;
 }
 	/* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
 	background: linear-gradient(to right, #00b7fd, #07d9b8);
+	border: 1px solid #222751;
 }
 	/* chatbox */
 #chatboxContainer {
