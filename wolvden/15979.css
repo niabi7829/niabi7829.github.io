@@ -3,7 +3,7 @@
 	/* Please do not edit, share, or resell this code. */
 
 	/* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 	/* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
@@ -19,6 +19,8 @@ body {
 	background: url('https://www.desktopbackground.org/download/1920x1200/2014/08/29/816641_download-wallpapers-download-2560x1440-landscapes-red-1920x1080_2560x1440_h.jpg') fixed;
 	background-size: cover;
 	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
+	color: #fff;
+	font-family: 'Syne Mono', monospace;
 }
 	/* links */
 a {
@@ -62,16 +64,28 @@ a:hover {
 	background: transparent;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
+	background: rgba(204,80,70,.8);
+	border: none;
 }
 .nav-tabs .nav-link.active {
 }
 .nav-tabs .nav-link {
+	border: none;
+	border-radius: 10px;
+	background: rgba(204,80,70,.4);
 }
 #main .card {
 }
 #main .card img {
 }
 .card-header {
+	background: rgba(204,80,70,.4);
+}
+.card-header:hover {
+	background: rgba(204,80,70,.8);
+}
+.card-body {
+	background: transparent;
 }
 img, .form-control, .note-btn {
 }
@@ -80,6 +94,7 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
+	border: none;
 	border-radius: 10px;
 	background: rgba(204,80,70,.4);
 }
@@ -87,6 +102,7 @@ img, .form-control, .note-btn {
 	background: rgba(204,80,70,.8);
 }
 .table th, .table td.bottom {
+	background: #991d14;
 }
 .table th a, .table td.bottom a {
 }
@@ -125,7 +141,7 @@ img, .form-control, .note-btn {
 	color: #000;
 	border-radius: 10px;
 }
-#sidebard .card:hover {
+#sidebar .card:hover {
 	background: rgba(204,80,70,.8);
 }
 #sidebar .card a {
