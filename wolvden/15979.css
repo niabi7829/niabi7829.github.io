@@ -18,6 +18,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 body {
 	background: url('https://www.desktopbackground.org/download/1920x1200/2014/08/29/816641_download-wallpapers-download-2560x1440-landscapes-red-1920x1080_2560x1440_h.jpg') fixed;
 	background-size: cover;
+	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 	/* links */
 a {
