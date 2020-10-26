@@ -48,10 +48,14 @@ a:hover {
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
+	background: transparent;
 }
 #header .navbar-status a {
+	color: white;
 }
 #header .navbar-status a:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 #header .text-dark {
 }
@@ -64,6 +68,7 @@ a:hover {
 
 	/* MAIN CONTAINER */
 #main {
+	background: rgba(255,255,255,0.4);
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -121,8 +126,10 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
+	background: transparent;
 }
 #sidebar .multi-column {
+	background: rgba(255,255,255,0.4);
 }
 #sidebar .card {
 }
