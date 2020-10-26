@@ -1,0 +1,176 @@
+	/* CSS by Niabi (#12903) */
+	/* This code is to only be used by Envy007 (#15979) */
+	/* Please do not edit, share, or resell this code. */
+
+	/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap');
+
+	/* CSS CREDIT */
+th.pt-1.pb-1::after, .table.mt-3 th.top::after {
+	content: "CSS by Niabi (#12903)";
+	color: #fff;
+	position: absolute;
+	right: 3%;
+	font-size: 12pt;
+}
+
+	/* WHOLE PAGE */
+body {
+	background: url('https://www.desktopbackground.org/download/1920x1200/2014/08/29/816641_download-wallpapers-download-2560x1440-landscapes-red-1920x1080_2560x1440_h.jpg') fixed;
+	background-size: cover;
+}
+	/* links */
+a {
+}
+a:hover {
+}
+
+	/* NAVBAR */
+#header .navbar-main, #footer {
+}
+	/* main navbar & footer links */
+#header .navbar-main .nav-link {
+}
+#header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
+}
+#header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
+}
+	
+	/* STATUS NAVBAR */
+#header .navbar-status {
+}
+#header .navbar-status a {
+}
+#header .navbar-status a:hover {
+}
+#header .text-dark {
+}
+
+	/* BREADCRUMB NAVBAR */
+#header .breadcrumb-nav {
+}
+#breadcrumb-item.active {
+}
+
+	/* MAIN CONTAINER */
+#main {;
+}
+.nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
+}
+.nav-tabs .nav-link.active {
+}
+.nav-tabs .nav-link {
+}
+#main .card {
+}
+#main .card img {
+}
+.card-header {
+}
+img, .form-control, .note-btn {
+}
+.card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
+}
+
+	/* TABLES */
+.table {
+}
+.table th, .table td.bottom {
+}
+.table th a, .table td.bottom a {
+}
+.table th a:hover, .table td.bottom a:hover {
+}
+.table .subheader {
+}
+.table .left {
+}
+.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
+}
+.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
+}
+.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a:hover {
+}
+	/* dropdown selectors */
+.form-control, .s-chat-sidebar #label_currentChannel, .note-toolbar .note-btn {
+}
+	/* den/profile editing area */
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+}
+.note-toolbar {
+}
+
+	/* SIDEBAR */
+#sidebar {
+}
+#sidebar .multi-column {
+}
+#sidebar .card {
+}
+#sidebar .card a {
+}
+#sidebar .card a:hover {
+}
+#sidebar .card-body .w-50 div {
+}
+.progress {
+}
+	/* energy, pup survival chance */
+.bg-warning, #main .bg-success {
+}
+	/* lead wolf hunger, mood */
+#sidebar .bg-danger, .bg-primary {
+}
+	/* lead wolf HP, other wolves' hunger */
+#sidebar .bg-info, #main .bg-danger {
+}
+	/* lead wolf EXP, other wolves' HP */
+#sidebar .bg-success, #main .bg-info {
+}
+	/* chatbox */
+#chatboxContainer {
+}
+#chatboxContainer a {
+}
+#chatboxContainer a:hover {
+}
+#chatMessagePinned.s-chat-message_pinned {
+}
+s-chat-sidebar #chatMessageList {
+}
+.s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
+}
+.s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
+}
+
+	/* BUTTONS */
+	/* updates & save changes */
+.btn-primary, btn-success {
+}
+.btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
+}
+	/* expand territory */
+.btn-warning {
+}
+.btn-warning:hover, .btn-warning:focus {
+}
+	/* report a bug */
+.btn-danger {
+}
+.btn-danger:hover {
+}
+
+	/* OTHER */
+	/* information alerts */
+.alert-info {
+}
+.alert-success {
+}
+	/* scrollbars */
+::-webkit-scrollbar {
+}
+::-webkit-scrollbar-thumb {
+}
+	/* tooltips */
+.tooltip-inner {
+}
