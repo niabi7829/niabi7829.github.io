@@ -19,6 +19,7 @@ body {
 	background: url('https://i.imgur.com/1qxGd9u.jpg') fixed;
 	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(35,26,45);
 }
 	/* links */
 a {
@@ -51,7 +52,7 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
-	background-transparent;
+	background: transparent;
 }
 #breadcrumb-item.active {
 }
@@ -79,6 +80,7 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
+	background: rgb(76,90,106);
 }
 .table th, .table td.bottom {
 }
@@ -180,4 +182,9 @@ s-chat-sidebar #chatMessageList {
 }
 	/* tooltips */
 .tooltip-inner {
+}
+	/* html */
+.box {
+	background: rgb(76,90,106);
+	min-height: 200px;
 }
