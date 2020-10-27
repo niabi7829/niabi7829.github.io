@@ -22,6 +22,9 @@ body {
 	color: #fff;
 	font-family: 'Syne Mono', monospace;
 }
+h1, h2 {
+	font-variant: small-caps;
+}
 	/* links */
 a {
 	color: #d97c75;
@@ -106,6 +109,10 @@ a:hover {
 img, .form-control, .note-btn {
 }
 .card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
+}
+.card-body .form-row {
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 	/* TABLES */
