@@ -24,9 +24,11 @@ body {
 }
 	/* links */
 a {
+	color: #d97c75;
 }
 a:hover {
 	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
+	color: #cc5046;
 }
 
 	/* NAVBAR */
@@ -74,17 +76,12 @@ a:hover {
 	background: rgba(192,37,25,.4);
 }
 #main .card {
-}
-#main .card img {
-}
-.card-header {
 	background: rgba(192,37,25,.4);
 }
-.card-header:hover {
-	background: rgba(192,37,25,.8);
+#main .card:hover {
+	background: rgba(192,37,25,.6);
 }
-.card-body {
-	background: transparent;
+#main .card img {
 }
 img, .form-control, .note-btn {
 }
@@ -98,7 +95,7 @@ img, .form-control, .note-btn {
 	background: rgba(192,37,25,.4);
 }
 .table:hover {
-	background: rgba(192,37,25,.8);
+	background: rgba(192,37,25,.6);
 }
 .table th, .table td.bottom {
 	background: #991d14;
@@ -140,7 +137,7 @@ img, .form-control, .note-btn {
 	border-radius: 10px;
 }
 #sidebar .card:hover {
-	background: rgba(192,37,25,.8);
+	background: rgba(192,37,25,.6);
 }
 #sidebar .card a {
 }
@@ -214,10 +211,10 @@ s-chat-sidebar #chatMessageList {
 	padding: 10px;
 	background: rgba(192,37,25,.4);
 	border-radius: 10px;
-	box-shadow: rgba(0,0,0,0.8);
+	box-shadow: rgba(0,0,0,0.6);
 	min-height: 200px;
 }
 .box:hover {
-	background: rgba(192,37,25,.8);
-	box-shadow: rgba(0,0,0,0.8);
+	background: rgba(192,37,25,.6);
+	box-shadow: rgba(0,0,0,0.6);
 }
