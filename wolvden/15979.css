@@ -130,6 +130,7 @@ img, .form-control, .note-btn {
 	background: #c02519;
 }
 .table .left {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
 	background: transparent;
