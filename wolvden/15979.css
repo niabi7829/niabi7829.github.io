@@ -89,6 +89,7 @@ a:hover {
 	background: rgba(192,37,25,.4);
 	margin-right: 5px;
 	margin-left: 5px;
+	transition: 1s background;
 }
 .nav-tabs .nav-link:hover {
 	border: none;
@@ -100,6 +101,7 @@ a:hover {
 }
 #main .card {
 	background: rgba(192,37,25,.4);
+	transition: 1s background;
 }
 #main .card:hover {
 	background: rgba(192,37,25,.8);
@@ -120,6 +122,7 @@ img, .form-control, .note-btn {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,.4);
+	transition: 1s background;
 }
 .table:hover {
 	background: rgba(192,37,25,.8);
@@ -166,6 +169,7 @@ img, .form-control, .note-btn {
 	background: rgba(192,37,25,.4);
 	border-bottom: 10px solid #991d14;
 	border-radius: 10px;
+	transition: 1s background;
 }
 #sidebar .card:hover {
 	background: rgba(192,37,25,.8);
@@ -254,7 +258,8 @@ s-chat-sidebar #chatMessageList {
 	border-radius: 10px;
 	box-shadow: rgba(0,0,0,0.8);
 	min-height: 200px;
-	transition: 1s;
+	transition: 1s background;
+	box-shadow: 5px 10px #000;
 }
 .box:hover {
 	background: rgba(192,37,25,.8);
