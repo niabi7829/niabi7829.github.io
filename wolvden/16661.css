@@ -23,8 +23,11 @@ body {
 }
 	/* links */
 a {
+	color: rgb(196,107,96);
 }
 a:hover {
+	color: rgb(196,107,96);
+	text-shadow: 0 0 5px rgb(209,177,147);
 }
 
 	/* NAVBAR */
@@ -185,6 +188,6 @@ s-chat-sidebar #chatMessageList {
 }
 	/* html */
 .box {
-	background: rgb(76,90,106);
-	min-height: 200px;
+	background: rgb(117,127,126,.5);
+	min-height: 500px;
 }
