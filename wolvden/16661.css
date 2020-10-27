@@ -28,6 +28,7 @@ a:hover {
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
+	background: transparent;
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -39,6 +40,7 @@ a:hover {
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
+	background: transparent;
 }
 #header .navbar-status a {
 }
@@ -49,12 +51,14 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
+	background-transparent;
 }
 #breadcrumb-item.active {
 }
 
 	/* MAIN CONTAINER */
-#main {;
+#main {
+	background: transparent;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -103,8 +107,10 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
+	background: transparent;
 }
 #sidebar .multi-column {
+	background: transparent;
 }
 #sidebar .card {
 }
