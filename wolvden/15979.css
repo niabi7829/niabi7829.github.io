@@ -247,6 +247,7 @@ s-chat-sidebar #chatMessageList {
 	border-radius: 10px;
 	box-shadow: rgba(0,0,0,0.6);
 	min-height: 200px;
+	transition: 2s;
 }
 .box:hover {
 	background: rgba(192,37,25,.6);
