@@ -37,10 +37,13 @@ a:hover {
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
+	background: #cc5046;
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
+	background: #c02519;
 }
 #header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
+	color: #c02519;
 }
 	
 	/* STATUS NAVBAR */
@@ -48,8 +51,11 @@ a:hover {
 	background: transparent;
 }
 #header .navbar-status a {
+	color: #cc5046;
 }
 #header .navbar-status a:hover {
+	color: #d97c75;
+	text-decoration: underline;
 }
 #header .text-dark {
 }
@@ -72,16 +78,22 @@ a:hover {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,1);
+	color: #fff;
 }
 .nav-tabs .nav-link {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,.4);
+	margin-right: 5px;
+	margin-left: 5px;
 }
 .nav-tabs .nav-link:hover {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,.8);
+}
+.nav-tabs .nav-link.active:hover {
+	background: rgba(192,37,25,1);
 }
 #main .card {
 	background: rgba(192,37,25,.4);
@@ -159,7 +171,6 @@ img, .form-control, .note-btn {
 .progress {
 }
 .table .progress {
-	border: 1px solid transparent!important;
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
