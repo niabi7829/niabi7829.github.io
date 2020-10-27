@@ -64,7 +64,6 @@ a:hover {
 	background: transparent;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
-	background: rgba(204,80,70,.8);
 	border: none;
 }
 .nav-tabs .nav-link.active {
@@ -72,17 +71,17 @@ a:hover {
 .nav-tabs .nav-link {
 	border: none;
 	border-radius: 10px;
-	background: rgba(204,80,70,.4);
+	background: rgba(192,37,25,.4);
 }
 #main .card {
 }
 #main .card img {
 }
 .card-header {
-	background: rgba(204,80,70,.4);
+	background: rgba(192,37,25,.4);
 }
 .card-header:hover {
-	background: rgba(204,80,70,.8);
+	background: rgba(192,37,25,.8);
 }
 .card-body {
 	background: transparent;
@@ -96,10 +95,10 @@ img, .form-control, .note-btn {
 .table {
 	border: none;
 	border-radius: 10px;
-	background: rgba(204,80,70,.4);
+	background: rgba(192,37,25,.4);
 }
 .table:hover {
-	background: rgba(204,80,70,.8);
+	background: rgba(192,37,25,.8);
 }
 .table th, .table td.bottom {
 	background: #991d14;
@@ -136,13 +135,12 @@ img, .form-control, .note-btn {
 	background: transparent;
 }
 #sidebar .card {
-	background: rgba(204,80,70,.4);
+	background: rgba(192,37,25,.4);
 	border-bottom: 10px solid #991d14;
-	color: #000;
 	border-radius: 10px;
 }
 #sidebar .card:hover {
-	background: rgba(204,80,70,.8);
+	background: rgba(192,37,25,.8);
 }
 #sidebar .card a {
 }
@@ -214,13 +212,12 @@ s-chat-sidebar #chatMessageList {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px;
-	background: rgba(204,80,70,.4);
+	background: rgba(192,37,25,.4);
 	border-radius: 10px;
 	box-shadow: rgba(0,0,0,0.8);
 	min-height: 200px;
-	color: #000;
 }
 .box:hover {
-	background: rgba(204,80,70,.8);
+	background: rgba(192,37,25,.8);
 	box-shadow: rgba(0,0,0,0.8);
 }
