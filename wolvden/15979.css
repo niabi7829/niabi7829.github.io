@@ -89,22 +89,26 @@ a:hover {
 	background: rgba(192,37,25,.4);
 	margin-right: 5px;
 	margin-left: 5px;
-	transition: 1s background;
+	transition: 1s background, 1s box-shadow;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 .nav-tabs .nav-link:hover {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,.8);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 .nav-tabs .nav-link.active:hover {
 	background: rgba(192,37,25,1);
 }
 #main .card {
 	background: rgba(192,37,25,.4);
-	transition: 1s background;
+	transition: 1s background, 1s box-shadow;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 #main .card:hover {
 	background: rgba(192,37,25,.8);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 #main .card img {
 }
@@ -122,10 +126,12 @@ img, .form-control, .note-btn {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,.4);
-	transition: 1s background;
+	transition: 1s background, 1s box-shadow;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 .table:hover {
 	background: rgba(192,37,25,.8);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 .table th, .table td.bottom {
 	background: #991d14;
@@ -169,10 +175,12 @@ img, .form-control, .note-btn {
 	background: rgba(192,37,25,.4);
 	border-bottom: 10px solid #991d14;
 	border-radius: 10px;
-	transition: 1s background;
+	transition: 1s background, 1s box-shadow;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 #sidebar .card:hover {
 	background: rgba(192,37,25,.8);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 #sidebar .card a {
 }
