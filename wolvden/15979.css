@@ -101,10 +101,13 @@ img, .form-control, .note-btn {
 	background: #991d14;
 }
 .table th a, .table td.bottom a {
+	color: #d97c75;
 }
 .table th a:hover, .table td.bottom a:hover {
+	color: #cc5046;
 }
 .table .subheader {
+	background: #c02519;
 }
 .table .left {
 }
@@ -147,6 +150,9 @@ img, .form-control, .note-btn {
 }
 .progress {
 }
+.table .progress {
+	border: 1px solid rgba(0,0,0,0.0);
+}
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
 }
@@ -172,8 +178,11 @@ img, .form-control, .note-btn {
 s-chat-sidebar #chatMessageList {
 }
 .s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
+	background: transparent;
+	border: 1px solid rgba(0,0,0,0.0);
 }
 .s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
+	border: 1px solid #d97c75;
 }
 
 	/* BUTTONS */
