@@ -61,6 +61,7 @@ a:hover {
 	text-decoration: underline;
 }
 #header .text-dark {
+	color: #fff;
 }
 
 	/* BREADCRUMB NAVBAR */
@@ -68,6 +69,7 @@ a:hover {
 	background: transparent;
 }
 #breadcrumb-item.active {
+	color: #fff;
 }
 
 	/* MAIN CONTAINER */
@@ -110,12 +112,6 @@ a:hover {
 	background: rgba(192,37,25,.8);
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
-#main .card img {
-}
-img, .form-control, .note-btn {
-}
-.card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
-}
 .card-body .form-row {
 	border-radius: 10px;
 	overflow: hidden;
@@ -151,18 +147,6 @@ img, .form-control, .note-btn {
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
 	background: transparent;
 }
-.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
-}
-.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a:hover {
-}
-	/* dropdown selectors */
-.form-control, .s-chat-sidebar #label_currentChannel, .note-toolbar .note-btn {
-}
-	/* den/profile editing area */
-.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
-}
-.note-toolbar {
-}
 
 	/* SIDEBAR */
 #sidebar {
@@ -181,14 +165,6 @@ img, .form-control, .note-btn {
 #sidebar .card:hover {
 	background: rgba(192,37,25,.8);
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
-}
-#sidebar .card a {
-}
-#sidebar .card a:hover {
-}
-#sidebar .card-body .w-50 div {
-}
-.progress {
 }
 .table .progress {
 	margin-top: 1px;
@@ -215,12 +191,6 @@ img, .form-control, .note-btn {
 	background: transparent;
 	border: none;
 }
-#chatboxContainer a {
-}
-#chatboxContainer a:hover {
-}
-#chatMessagePinned.s-chat-message_pinned {
-}
 s-chat-sidebar #chatMessageList {
 	border: none;
 }
@@ -231,30 +201,19 @@ s-chat-sidebar #chatMessageList {
 
 	/* BUTTONS */
 	/* updates & save changes */
-.btn-primary, btn-success {
-}
 .btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
 	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 	/* expand territory */
-.btn-warning {
-}
 .btn-warning:hover, .btn-warning:focus {
 	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 	/* report a bug */
-.btn-danger {
-}
 .btn-danger:hover {
 	cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat738.cur), auto !important;
 }
 
 	/* OTHER */
-	/* information alerts */
-.alert-info {
-}
-.alert-success {
-}
 	/* html*/
 .box {
 	width: 100%;
