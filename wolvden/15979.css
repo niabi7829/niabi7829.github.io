@@ -69,11 +69,19 @@ a:hover {
 	border: none;
 }
 .nav-tabs .nav-link.active {
+	border: none;
+	border-radius: 10px;
+	background: rgba(192,37,25,1);
 }
 .nav-tabs .nav-link {
 	border: none;
 	border-radius: 10px;
 	background: rgba(192,37,25,.4);
+}
+.nav-tabs .nav-link:hover {
+	border: none;
+	border-radius: 10px;
+	background: rgba(192,37,25,.8);
 }
 #main .card {
 	background: rgba(192,37,25,.4);
@@ -151,7 +159,9 @@ img, .form-control, .note-btn {
 .progress {
 }
 .table .progress {
-	border: 1px solid rgba(0,0,0,0.0);
+	border: 1px solid transparent!important;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
@@ -179,7 +189,7 @@ s-chat-sidebar #chatMessageList {
 }
 .s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
 	background: transparent;
-	border: 1px solid rgba(0,0,0,0.0);
+	border: 1px solid transparent;
 }
 .s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
 	border: 1px solid #d97c75;
