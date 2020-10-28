@@ -45,6 +45,7 @@ a:hover {
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
 	color: #fff;
+	text-decoration: underline;
 }
 #header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
 	color: rgb(136,165,183);
@@ -164,23 +165,23 @@ img, .form-control, .note-btn {
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
-	background: rgb(136,165,183);
+	background: rgb(136,165,183) !important;
 }
 	/* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
-	background: rgb(136,165,183);
+	background: rgb(136,165,183) !important;
 }
 	/* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
-	background: rgb(136,165,183);
+	background: rgb(136,165,183) !important;
 }
 	/* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
-	background: rgb(136,165,183);
+	background: rgb(136,165,183) !important;
 }
 	/* chatbox */
 #chatboxContainer {
-	border: none;
+	border: none !important;
 }
 #chatboxContainer a {
 }
