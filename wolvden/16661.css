@@ -48,6 +48,8 @@ a:hover {
 #header .navbar-status a {
 }
 #header .navbar-status a:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 #header .text-dark {
 }
@@ -69,6 +71,7 @@ a:hover {
 .nav-tabs .nav-link.active {
 	border: none;
 	background: rgb(35,26,45);
+	color: #fff;
 }
 .nav-tabs .nav-link {
 	background: rgb(35,26,45,.6);
@@ -114,6 +117,7 @@ img, .form-control, .note-btn {
 	background: rgb(35,26,45);
 }
 .table .left {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
 	background: transparent;
