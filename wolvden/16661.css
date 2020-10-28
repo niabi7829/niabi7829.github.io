@@ -83,6 +83,8 @@ img, .form-control, .note-btn {
 	/* TABLES */
 .table {
 	background: rgb(35,26,45,.6);
+	border: rgb(35,26,45);
+	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
 .table th, .table td.bottom {
 	background: rgb(35,26,45);
@@ -91,7 +93,7 @@ img, .form-control, .note-btn {
 }
 .table th a:hover, .table td.bottom a:hover {
 }
-.table .subheader {
+.table .subheader td {
 	background: rgb(35,26,45);
 }
 .table .left {
@@ -120,6 +122,8 @@ img, .form-control, .note-btn {
 	background: transparent;
 }
 #sidebar .card {
+	background: rgb(35,26,45,.6);
+	border-bottom: 10px solid rgb(35,26,45);
 }
 #sidebar .card a {
 }
@@ -190,6 +194,8 @@ s-chat-sidebar #chatMessageList {
 }
 	/* html */
 .box {
-	background: rgb(117,127,126,.5);
+	background: rgb(35,26,45,.6);
+	border: rgb(35,26,45);
+	box-shadow: 2px 2px 2px rgb(35,26,45);
 	min-height: 500px;
 }
