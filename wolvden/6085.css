@@ -15,6 +15,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 
 	/* WHOLE PAGE */
 body {
+	background: #65a1a0;
 	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;
 }
 	/* links */
@@ -52,7 +53,8 @@ a:hover {
 }
 
 	/* MAIN CONTAINER */
-#main {;
+#main {
+	background: #aad4da;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -101,8 +103,10 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
+	background: #aad4da;
 }
 #sidebar .multi-column {
+	background: #aad4da;
 }
 #sidebar .card {
 }
