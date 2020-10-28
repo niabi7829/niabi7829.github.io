@@ -75,6 +75,9 @@ a:hover {
 	border: rgb(35,26,45);
 	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
+.nav-tabs .nav-link:hover {
+	text-decoration: underline;
+}
 #main .card {
 	background: rgb(35,26,45);
 	box-shadow: 2px 2px 2px rgb(35,26,45);
@@ -97,7 +100,7 @@ img, .form-control, .note-btn {
 	/* TABLES */
 .table {
 	background: rgb(35,26,45,.6);
-	border: rgb(35,26,45);
+	border: 1px solid rgb(35,26,45);
 	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
 .table th, .table td.bottom {
