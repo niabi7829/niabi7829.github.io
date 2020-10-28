@@ -68,12 +68,16 @@ a:hover {
 }
 .nav-tabs .nav-link.active {
 	border: none;
+	background: rgb(35,26,45);
 }
 .nav-tabs .nav-link {
-	border: none;
+	background: rgb(35,26,45,.6);
+	border: rgb(35,26,45);
+	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
 #main .card {
 	background: rgb(35,26,45);
+	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
 #main .card img {
 }
