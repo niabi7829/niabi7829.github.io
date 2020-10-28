@@ -32,6 +32,7 @@ a:hover {
 	/* NAVBAR */
 #header .navbar-main, #footer {
 	background: transparent;
+	background: rgb(35,26,45,.6);
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -44,6 +45,7 @@ a:hover {
 	/* STATUS NAVBAR */
 #header .navbar-status {
 	background: transparent;
+	background: rgb(35,26,45,.6);
 }
 #header .navbar-status a {
 }
@@ -110,8 +112,10 @@ img, .form-control, .note-btn {
 	background: rgb(35,26,45);
 }
 .table th a, .table td.bottom a {
+	color: rgb(241,193,165);
 }
 .table th a:hover, .table td.bottom a:hover {
+	color: rgb(241,193,165);
 }
 .table .subheader td {
 	background: rgb(35,26,45);
@@ -122,18 +126,10 @@ img, .form-control, .note-btn {
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
 	background: transparent;
 }
-.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
-}
-.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a:hover {
-}
 	/* dropdown selectors */
 .form-control, .s-chat-sidebar #label_currentChannel, .note-toolbar .note-btn {
 }
 	/* den/profile editing area */
-.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
-}
-.note-toolbar {
-}
 
 	/* SIDEBAR */
 #sidebar {
