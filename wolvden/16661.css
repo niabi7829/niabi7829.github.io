@@ -79,6 +79,9 @@ a:hover {
 }
 .card-header {
 }
+#summernote-form {
+	background: rgb(35,26,45,.6);
+}
 img, .form-control, .note-btn {
 }
 .card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
