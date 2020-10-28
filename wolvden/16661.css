@@ -19,7 +19,7 @@ body {
 	background: url('https://i.imgur.com/1qxGd9u.jpg') fixed;
 	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #fff;
+	color: rgb(136,165,183);
 }
 	/* links */
 a {
