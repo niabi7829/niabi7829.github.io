@@ -19,7 +19,7 @@ body {
 	background: url('https://i.imgur.com/1qxGd9u.jpg') fixed;
 	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
-	color: rgb(35,26,45);
+	color: #fff;
 }
 	/* links */
 a {
@@ -27,7 +27,6 @@ a {
 }
 a:hover {
 	color: rgb(196,107,96);
-	text-shadow: 0 0 5px rgb(209,177,147);
 }
 
 	/* NAVBAR */
