@@ -28,6 +28,7 @@ a:hover {
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
+	background: #312e41;
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -39,6 +40,7 @@ a:hover {
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
+	background: #312e41;
 }
 #header .navbar-status a {
 }
@@ -49,6 +51,7 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
+	background: #aad4da;
 }
 #breadcrumb-item.active {
 }
