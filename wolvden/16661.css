@@ -41,10 +41,13 @@ a:hover {
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
+	color: #fff;
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
+	color: #fff;
 }
 #header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
+	color: rgb(136,165,183);
 }
 	
 	/* STATUS NAVBAR */
@@ -156,18 +159,24 @@ img, .form-control, .note-btn {
 #sidebar .card-body .w-50 div {
 }
 .progress {
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
+	background: rgb(136,165,183);
 }
 	/* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
+	background: rgb(136,165,183);
 }
 	/* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
+	background: rgb(136,165,183);
 }
 	/* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
+	background: rgb(136,165,183);
 }
 	/* chatbox */
 #chatboxContainer {
