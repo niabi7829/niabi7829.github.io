@@ -30,9 +30,14 @@ a:hover {
 }
 
 	/* NAVBAR */
+#header {
+	margin-top: 10px;
+	background: rgb(35,26,45,.6);
+	border: 1px solid rgb(35,26,45);
+	box-shadow: 2px 2px 2px rgb(35,26,45);
+}
 #header .navbar-main, #footer {
 	background: transparent;
-	background: rgb(35,26,45,.6);
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -45,7 +50,6 @@ a:hover {
 	/* STATUS NAVBAR */
 #header .navbar-status {
 	background: transparent;
-	background: rgb(35,26,45,.6);
 }
 #header .navbar-status a {
 }
@@ -78,7 +82,7 @@ a:hover {
 }
 .nav-tabs .nav-link {
 	background: rgb(35,26,45,.6);
-	border: rgb(35,26,45);
+	border: 1px solid rgb(35,26,45);
 	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
 .nav-tabs .nav-link:hover {
