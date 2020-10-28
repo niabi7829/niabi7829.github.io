@@ -81,6 +81,9 @@ a:hover {
 }
 #summernote-form {
 	background: rgb(35,26,45,.6);
+	border: rgb(35,26,45);
+	box-shadow: 2px 2px 2px rgb(35,26,45);
+	padding: 5px;
 }
 img, .form-control, .note-btn {
 }
@@ -156,6 +159,7 @@ img, .form-control, .note-btn {
 }
 	/* chatbox */
 #chatboxContainer {
+	border: none;
 }
 #chatboxContainer a {
 }
@@ -166,8 +170,9 @@ img, .form-control, .note-btn {
 s-chat-sidebar #chatMessageList {
 }
 .s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
-}
-.s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
+	background: transparent;
+	border-top: 1px solid rgb(35,26,45);
+	border-bottom: 1px solid rgb(35,26,45);
 }
 
 	/* BUTTONS */
