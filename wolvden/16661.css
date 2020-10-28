@@ -85,16 +85,19 @@ img, .form-control, .note-btn {
 	background: rgb(35,26,45,.6);
 }
 .table th, .table td.bottom {
+	background: rgb(35,26,45);
 }
 .table th a, .table td.bottom a {
 }
 .table th a:hover, .table td.bottom a:hover {
 }
 .table .subheader {
+	background: rgb(35,26,45);
 }
 .table .left {
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
 }
