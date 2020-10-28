@@ -187,6 +187,9 @@ img, .form-control, .note-btn {
 	background: rgb(136,165,183) !important;
 }
 	/* chatbox */
+#card-chat, #fraSidebarChat {
+	border: none !important;
+}
 #chatboxContainer {
 	border: none !important;
 }
