@@ -37,7 +37,7 @@ a:hover {
 	box-shadow: 2px 2px 2px rgb(35,26,45);
 }
 #header .navbar-main, #footer {
-	background: transparent;
+	background: rgb(35,26,45);
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
@@ -74,6 +74,9 @@ a:hover {
 	/* MAIN CONTAINER */
 #main {
 	background: transparent;
+}
+#main h1 {
+	color: rgb(35,26,45);
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 	border: none;
