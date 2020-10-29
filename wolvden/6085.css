@@ -199,6 +199,7 @@ s-chat-sidebar #chatMessageList {
 	background: #bcdde2;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
+	margin: 10px;
 }
 .box-long {
 	width: 100%;
@@ -208,4 +209,6 @@ s-chat-sidebar #chatMessageList {
 	background: #bcdde2;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
+	margin: 10px;
+	margin-top: 0;
 }
