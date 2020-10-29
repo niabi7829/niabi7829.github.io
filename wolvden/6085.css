@@ -187,32 +187,34 @@ s-chat-sidebar #chatMessageList {
 }
 	/* html */
 .box-contain {
-	width: 100%;
 	position: relative;
 }
 .box-scroll {
-	width: 50%;
+	width: 40%;
 	display: inline-block;
 	height: 300px;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 10px;
 	overflow: auto;
 	background: #dfeff1;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
-	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	opacity: .6;
+	transition: 1s;
 }
 .box-long {
-	width: 100%;
 	height: 300px;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 10px;
 	overflow: auto;
 	background: #dfeff1;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
 	margin: 10px;
 	margin-top: 0;
+	opacity: 0.6;
+	transition: 1s;
+}
+.box-scroll:hover, .box-long:hover {
+	opacity: 1;
 }
