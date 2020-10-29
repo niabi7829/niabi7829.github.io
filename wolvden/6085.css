@@ -195,8 +195,10 @@ s-chat-sidebar #chatMessageList {
 	display: inline-block;
 	height: 300px;
 	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	overflow: auto;
-	background: #bcdde2;
+	background: #dfeff1;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
 	margin: 10px;
@@ -205,8 +207,10 @@ s-chat-sidebar #chatMessageList {
 	width: 100%;
 	height: 300px;
 	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	overflow: auto;
-	background: #bcdde2;
+	background: #dfeff1;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
 	margin: 10px;
