@@ -189,12 +189,12 @@ s-chat-sidebar #chatMessageList {
 .box-contain {
 	position: relative;
 }
-.box-scroll {
-	width: 40%;
+.box-smol {
+	width: 50%;
 	display: inline-block;
 	height: 300px;
 	padding: 10px;
-	overflow: auto;
+	overflow: hidden;
 	background: #dfeff1;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
@@ -207,7 +207,7 @@ s-chat-sidebar #chatMessageList {
 .box-long {
 	height: 300px;
 	padding: 10px;
-	overflow: auto;
+	overflow: hidden;
 	background: #dfeff1;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
@@ -216,6 +216,9 @@ s-chat-sidebar #chatMessageList {
 	opacity: 0.6;
 	transition: 1s;
 }
-.box-scroll:hover, .box-long:hover {
+.box-smol:hover, .box-long:hover {
 	opacity: 1;
+}
+.scroll {
+	overflow: auto;
 }
