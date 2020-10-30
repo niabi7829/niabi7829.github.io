@@ -106,7 +106,8 @@ img, .form-control, .note-btn {
 	background: #aad4da;
 	border-radius: 20px;
 	overflow: hidden;
-	border: 1px solid #aad4da;
+	border: 2px solid #aad4da;
+	box-shadow: 5px 5px #aad4da;
 }
 .table th, .table td.bottom {
 	background: #312e41;
@@ -116,11 +117,8 @@ img, .form-control, .note-btn {
 }
 .table th a:hover, .table td.bottom a:hover {
 }
-.table .subheader  td {
+.table .subheader  td, .table .left {
 	background: #99bec4;
-}
-.table .left {
-	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
 	background: transparent;
@@ -235,6 +233,8 @@ s-chat-sidebar #chatMessageList {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: left;
+	border: 2px solid #aad4da;
+	box-shadow: 5px 5px #aad4da;
 }
 .box-smol {
 	width: 49%;
