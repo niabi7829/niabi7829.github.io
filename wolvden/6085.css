@@ -28,6 +28,12 @@ a:hover {
 }
 
 	/* NAVBAR */
+#header {
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
 #header .navbar-main, #footer {
 	background: #312e41;
 }
@@ -52,7 +58,7 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
-	background: #aad4da;
+	background: #312e41;
 }
 #breadcrumb-item.active {
 }
@@ -80,6 +86,9 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
+	background: #aad4da;
+	border-radius: 30px;
+	overflow: hidden;
 }
 .table th, .table td.bottom {
 }
@@ -87,11 +96,14 @@ img, .form-control, .note-btn {
 }
 .table th a:hover, .table td.bottom a:hover {
 }
-.table .subheader {
+.table .subheader  td {
+	background: ;
 }
 .table .left {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
 }
@@ -115,6 +127,8 @@ img, .form-control, .note-btn {
 }
 #sidebar .card {
 	background: #aad4da;
+	border-radius: 30px;
+	border-bottom: none;
 }
 #sidebar .card a {
 }
