@@ -85,7 +85,7 @@ a:hover {
 }
 #main .card {
 	background: #312e41;
-	border-radius: 4px;
+	border-radius: 10px;
 	overflow: hidden;
 	color: #fff;
 }
