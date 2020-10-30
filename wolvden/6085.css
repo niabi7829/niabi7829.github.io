@@ -18,7 +18,7 @@ body {
 	background: #65a1a0;
 	font-family: 'Comic Sans', cursive;
 	color: #312e41;
-	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat847.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat847.png), auto !important;
+	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat851.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat851.png), auto !important;
 }
 	/* links */
 a {
@@ -28,7 +28,7 @@ a {
 a:hover {
 	color: #312e41;
 	font-weight: bold;
-	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat855.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat855.png), auto !important;
+	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat851.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat851.png), auto !important;
 }
 
 	/* NAVBAR */
@@ -176,19 +176,19 @@ s-chat-sidebar #chatMessageList {
 .btn-primary, btn-success {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus {
-	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat855.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat855.png), auto !important;
+	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat851.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat851.png), auto !important;
 }
 	/* expand territory */
 .btn-warning {
 }
 .btn-warning:hover, .btn-warning:focus {
-	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat855.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat855.png), auto !important;
+	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat851.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat851.png), auto !important;
 }
 	/* report a bug */
 .btn-danger {
 }
 .btn-danger:hover {
-	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat855.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat855.png), auto !important;
+	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat851.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat851.png), auto !important;
 }
 
 	/* OTHER */
