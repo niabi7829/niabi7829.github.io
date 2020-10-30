@@ -83,6 +83,9 @@ a:hover {
 	border-radius: 4px;
 	overflow: hidden;
 }
+#main .card a {
+	color: #c3b2b4;
+}
 #main .card img {
 }
 .card-header {
