@@ -92,6 +92,9 @@ a:hover {
 #main .card a {
 	color: #c3b2b4;
 }
+#main .card a:hover {
+	text-decoration: underline;
+}
 #main .card img {
 }
 .card-header {
