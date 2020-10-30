@@ -18,18 +18,18 @@ body {
 	background: #65a1a0;
 	font-family: 'Comic Sans', cursive;
 	color: #312e41;
-	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym420.cur), auto !important;
 }
 	/* links */
 a {
 }
 a:hover {
-	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym420.cur), auto !important;
 }
 
 	/* NAVBAR */
-#header {
-	border-radius: 30px;
+#header, #footer {
+	border-radius: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	overflow: hidden;
@@ -87,7 +87,7 @@ img, .form-control, .note-btn {
 	/* TABLES */
 .table {
 	background: #aad4da;
-	border-radius: 30px;
+	border-radius: 20px;
 	overflow: hidden;
 }
 .table th, .table td.bottom {
@@ -127,7 +127,7 @@ img, .form-control, .note-btn {
 }
 #sidebar .card {
 	background: #aad4da;
-	border-radius: 30px;
+	border-radius: 20px;
 	border-bottom: none;
 }
 #sidebar .card a {
@@ -171,19 +171,19 @@ s-chat-sidebar #chatMessageList {
 .btn-primary, btn-success {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus {
-	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym420.cur), auto !important;
 }
 	/* expand territory */
 .btn-warning {
 }
 .btn-warning:hover, .btn-warning:focus {
-	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym420.cur), auto !important;
 }
 	/* report a bug */
 .btn-danger {
 }
 .btn-danger:hover {
-	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym420.cur), auto !important;
 }
 
 	/* OTHER */
@@ -207,23 +207,23 @@ s-chat-sidebar #chatMessageList {
 .box-smol {
 	width: 50%;
 	display: inline-block;
-	height: 300px;
+	height: 200px;
 	padding: 10px;
-	overflow: scroll;
+	overflow: auto;
 	background: #aad4da;
 	border: 1px solid #75b9c3;
-	border-radius: 30px;
+	border-radius: 20px;
 	margin: auto;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 .box-long {
-	height: 300px;
+	height: 200px;
 	padding: 10px;
-	overflow: scroll;
+	overflow: auto;
 	background: #aad4da;
 	border: 1px solid #75b9c3;
-	border-radius: 30px;
+	border-radius: 20px;
 	margin: 10px;
 	margin-top: 0;
 }
