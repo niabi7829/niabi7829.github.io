@@ -202,7 +202,8 @@ s-chat-sidebar #chatMessageList {
 }
 	/* html */
 .box-contain {
-	posi
+	position: relative;
+}
 .box-smol {
 	width: 50%;
 	display: inline-block;
