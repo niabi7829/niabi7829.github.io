@@ -79,6 +79,9 @@ a:hover {
 .nav-tabs .nav-link {
 }
 #main .card {
+	background: #312e41;
+	border-radius: 4px;
+	overflow: hidden;
 }
 #main .card img {
 }
@@ -94,6 +97,7 @@ img, .form-control, .note-btn {
 	background: #aad4da;
 	border-radius: 20px;
 	overflow: hidden;
+	border: 1px solid #aad4da;
 }
 .table th, .table td.bottom {
 	background: #312e41;
