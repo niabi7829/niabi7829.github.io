@@ -212,7 +212,7 @@ s-chat-sidebar #chatMessageList {
 	position: relative;
 }
 .box-smol {
-	width: 50%;
+	width: 48%;
 	display: inline-block;
 	height: 200px;
 	padding: 10px;
