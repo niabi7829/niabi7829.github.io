@@ -96,13 +96,15 @@ img, .form-control, .note-btn {
 	overflow: hidden;
 }
 .table th, .table td.bottom {
+	background: #312e41;
 }
 .table th a, .table td.bottom a {
+	color: #c3b2b4;
 }
 .table th a:hover, .table td.bottom a:hover {
 }
 .table .subheader  td {
-	background: ;
+	background: #99bec4;
 }
 .table .left {
 	background: transparent;
