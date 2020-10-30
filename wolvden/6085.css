@@ -59,7 +59,7 @@ a:hover {
 
 	/* MAIN CONTAINER */
 #main {
-	background: #aad4da;
+	background: transparent;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -108,12 +108,13 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
-	background: #aad4da;
+	background: transparent;
 }
 #sidebar .multi-column {
-	background: #aad4da;
+	background: transparent;
 }
 #sidebar .card {
+	background: #aad4da;
 }
 #sidebar .card a {
 }
@@ -187,38 +188,27 @@ s-chat-sidebar #chatMessageList {
 }
 	/* html */
 .box-contain {
-	position: relative;
-}
+	posi
 .box-smol {
 	width: 50%;
 	display: inline-block;
 	height: 300px;
 	padding: 10px;
-	overflow: hidden;
-	background: #dfeff1;
+	overflow: scroll;
+	background: #aad4da;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
 	margin: auto;
 	margin-left: 5px;
 	margin-right: 5px;
-	opacity: .6;
-	transition: 1s;
 }
 .box-long {
 	height: 300px;
 	padding: 10px;
-	overflow: hidden;
-	background: #dfeff1;
+	overflow: scroll;
+	background: #aad4da;
 	border: 1px solid #75b9c3;
 	border-radius: 30px;
 	margin: 10px;
 	margin-top: 0;
-	opacity: 0.6;
-	transition: 1s;
-}
-.box-smol:hover, .box-long:hover {
-	opacity: 1;
-}
-.scroll {
-	overflow: auto;
 }
