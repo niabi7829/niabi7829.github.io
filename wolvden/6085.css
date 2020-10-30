@@ -24,12 +24,10 @@ body {
 a {
 	color: #312e41;
 	font-weight: bold;
-	text-decoration: underline;
 }
 a:hover {
 	color: #312e41;
 	font-weight: bold;
-	text-decoration: none;
 	cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat855.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat855.png), auto !important;
 }
 
