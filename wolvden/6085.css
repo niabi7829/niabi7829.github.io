@@ -23,7 +23,7 @@ body {
 	/* links */
 a {
 	color: #312e41;
-	font-weight: bold
+	font-weight: bold;
 	text-decoration: underline;
 }
 a:hover {
