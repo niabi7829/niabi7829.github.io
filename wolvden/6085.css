@@ -223,6 +223,7 @@ s-chat-sidebar #chatMessageList {
 	/* html */
 .box-contain {
 	position: relative;
+	text-align: center;
 }
 .box-long, .box-smol {
 	height: 300px;
@@ -233,6 +234,7 @@ s-chat-sidebar #chatMessageList {
 	border-radius: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: left;
 }
 .box-smol {
 	width: 49%;
