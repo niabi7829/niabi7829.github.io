@@ -108,8 +108,8 @@ img, .form-control, .note-btn {
 .table {
 	background: #aad4da;
 	border-radius: 20px;
-	border: 2px solid #aad4da;
-	box-shadow: 5px 5px #aad4da;
+	border: 1px solid #312e41;
+	box-shadow: 5px 5px #312e41;
 }
 .table th, .table td.bottom {
 	background: #312e41;
@@ -149,6 +149,8 @@ img, .form-control, .note-btn {
 	background: #aad4da;
 	border-radius: 20px;
 	border-bottom: none;
+	border: 1px solid #312e41;
+	box-shadow: 5px 5px #312e41;
 }
 #sidebar .card a {
 }
@@ -235,8 +237,8 @@ s-chat-sidebar #chatMessageList {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: left;
-	border: 2px solid #aad4da;
-	box-shadow: 5px 5px #aad4da;
+	border: 1px solid #312e41;
+	box-shadow: 5px 5px #312e41;
 }
 .box-smol {
 	width: 49%;
