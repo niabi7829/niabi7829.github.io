@@ -186,6 +186,7 @@ img, .form-control, .note-btn {
 }
 	/* chatbox */
 #chatboxContainer {
+	border: none !important;
 }
 #chatboxContainer a {
 }
@@ -195,7 +196,11 @@ img, .form-control, .note-btn {
 }
 s-chat-sidebar #chatMessageList {
 }
-.s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
+.s-chat-message:nth-child(odd){
+	background: #99bec4;
+}
+ .s-chat-message:nth-child(even) {
+	background: #bbdce1;
 }
 .s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
 }
