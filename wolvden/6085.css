@@ -20,6 +20,17 @@ body {
 	color: #312e41;
 	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym433.cur), auto !important;
 }
+::-webkit-scrollbar {
+	width: 10px;
+	height: 8px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: #312e41;
+	border-radius: 10px;
+}
 	/* links */
 a {
 	color: #312e41;
@@ -110,6 +121,7 @@ img, .form-control, .note-btn {
 	border-radius: 20px;
 	border: 1px solid #312e41;
 	box-shadow: 5px 5px #312e41;
+	overflow: hidden;
 }
 .table th, .table td.bottom {
 	background: #312e41;
