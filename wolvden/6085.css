@@ -251,7 +251,7 @@ s-chat-sidebar #chatMessageList {
 .box-long, .box-smol {
 	height: 300px;
 	padding: 10px;
-	overflow: hidden, auto;
+	overflow: auto;
 	background: #aad4da;
 	border: 1px solid #75b9c3;
 	border-radius: 20px;
