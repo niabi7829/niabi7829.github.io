@@ -21,15 +21,19 @@ body {
 	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym433.cur), auto !important;
 }
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 8px;
 	height: 8px;
 }
 ::-webkit-scrollbar-track {
-	background: transparent;
+	background: #aad4da;
 }
 ::-webkit-scrollbar-thumb {
-	background: #312e41;
+	background: #aad4da;
+	border: 1px solid #312e41;
 	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #99bec4;
 }
 	/* links */
 a {
@@ -125,6 +129,7 @@ img, .form-control, .note-btn {
 }
 .table th, .table td.bottom {
 	background: #312e41;
+	border: 1px solid #312e41;
 }
 .table th a, .table td.bottom a {
 	color: #c3b2b4;
