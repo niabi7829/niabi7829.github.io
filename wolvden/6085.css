@@ -16,7 +16,7 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	/* WHOLE PAGE */
 body {
 	background: #65a1a0;
-	font-family: 'Comic Sans', cursive;
+	font-family: 'Comic Sans';
 	color: #312e41;
 	cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym433.cur), auto !important;
 }
@@ -107,7 +107,7 @@ a:hover {
 	color: #c3b2b4;
 }
 #main .card a:hover {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 #main .card img {
 }
@@ -251,7 +251,7 @@ s-chat-sidebar #chatMessageList {
 .box-long, .box-smol {
 	height: 300px;
 	padding: 10px;
-	overflow: auto;
+	overflow: auto, hidden;
 	background: #aad4da;
 	border: 1px solid #75b9c3;
 	border-radius: 20px;
