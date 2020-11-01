@@ -125,6 +125,11 @@ img, .form-control, .note-btn {
 	border: 1px solid #312e41 !important;
 	box-shadow: 5px 5px #312e41;
 	overflow: hidden;
+	opacity: 0.8;
+	transition: 1s;
+}
+.table:hover {
+	opacity: 1;
 }
 .table th, .table td.bottom {
 	background: #312e41;
@@ -137,6 +142,7 @@ img, .form-control, .note-btn {
 }
 .table .subheader  td, .table .left {
 	background: #99bec4;
+	color: #1a1923;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
 	background: #aad4da;
