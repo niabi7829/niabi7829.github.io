@@ -56,6 +56,12 @@ a:hover {
 #header .navbar-main, #footer {
 	background: #312e41;
 }
+#header a {
+	color: #c3b2b4;
+}
+#header a:hover {
+	color: #e5ddde;
+}
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
 	color: #c3b2b4;
