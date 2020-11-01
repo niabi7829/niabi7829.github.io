@@ -120,7 +120,7 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
-	background: #aad4da;
+	background: #312e41;
 	border-radius: 20px;
 	border: 1px solid #312e41 !important;
 	box-shadow: 5px 5px #312e41;
@@ -139,7 +139,7 @@ img, .form-control, .note-btn {
 	background: #99bec4;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
-	background: transparent;
+	background: #aad4da;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
 }
