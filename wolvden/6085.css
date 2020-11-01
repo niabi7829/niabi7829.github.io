@@ -125,7 +125,7 @@ img, .form-control, .note-btn {
 	border: 1px solid #312e41 !important;
 	box-shadow: 5px 5px #312e41;
 	overflow: hidden;
-	opacity: 0.8;
+	opacity: 0.6;
 	transition: 1s;
 }
 .table:hover {
