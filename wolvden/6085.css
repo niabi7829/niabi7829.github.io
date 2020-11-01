@@ -30,9 +30,10 @@ body {
 ::-webkit-scrollbar-thumb {
 	background: #312e41;
 	border-radius: 10px;
+	transition: 1s;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #99bec4;
+	background: #1a1923;
 }
 	/* links */
 a {
