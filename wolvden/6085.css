@@ -51,11 +51,9 @@ a:hover {
 	border-radius: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	overflow: hidden;
 	color: #fff;
 }
 #header .navbar-main, #footer {
-	background: #312e41;
 }
 #header a {
 	color: #c3b2b4;
@@ -64,7 +62,11 @@ a:hover {
 	color: #e5ddde;
 }
 	/* main navbar & footer links */
+#header .navbar-main {
+	background: transparent;
+}
 #header .navbar-main .nav-link {
+	background: transparent;
 	color: #c3b2b4;
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
