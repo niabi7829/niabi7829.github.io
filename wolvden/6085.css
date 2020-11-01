@@ -185,7 +185,7 @@ img, .form-control, .note-btn {
 	opacity: 0.6;
 	transition: 1s;
 }
-.#sidebar .card:hover {
+#sidebar .card:hover {
 	opacity: 1;
 }
 .progress {
