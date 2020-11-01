@@ -52,6 +52,7 @@ a:hover {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: #fff;
+	background: #312e41;
 }
 #header .navbar-main, #footer {
 }
@@ -76,7 +77,7 @@ a:hover {
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
-	background: #312e41;
+	background: transparent;
 }
 #header .navbar-status a {
 }
@@ -87,7 +88,7 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
-	background: #312e41;
+	background: transparent;
 }
 #breadcrumb-item.active {
 }
