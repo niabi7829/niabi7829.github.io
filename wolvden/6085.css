@@ -133,7 +133,7 @@ img, .form-control, .note-btn {
 	background: #312e41;
 	border-radius: 5px;
 	border: 1px solid #312e41 !important;
-	box-shadow: 5px 5px #312e41;
+	box-shadow: 2px 2px #312e41;
 	overflow: hidden;
 	opacity: 0.6;
 	transition: 1s;
@@ -182,7 +182,7 @@ img, .form-control, .note-btn {
 	border-radius: 5px;
 	border-bottom: none;
 	border: 1px solid #312e41;
-	box-shadow: 5px 5px #312e41;
+	box-shadow: 2px 2px #312e41;
 	opacity: 0.6;
 	transition: 1s;
 }
@@ -282,7 +282,7 @@ img, .form-control, .note-btn {
 	margin-bottom: 10px;
 	text-align: left;
 	border: 1px solid #312e41;
-	box-shadow: 5px 5px #312e41;
+	box-shadow: 2px 2px #312e41;
 	opacity: 0.6;
 	transition: 1s;
 }
@@ -292,4 +292,5 @@ img, .form-control, .note-btn {
 .box-smol {
 	width: 49%;
 	display: inline-block;
+	padding: 1px;
 }
