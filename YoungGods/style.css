@@ -1,117 +1,130 @@
-	/* STYLESHEET */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cinzel+Decorative&display=swap');
 body {
-	background: url('keiran.png') right top no-repeat, url('aven.png') left top no-repeat, url('background.png') top center no-repeat;
-	background-color: #332085;
+	background: rgb(21,22,24);
+	border-top: 5px solid rgb(224,106,65);
 	margin: 0;
+	color: rgb(104,109,113);
+	font-size: 13pt;
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 12pt;
-	color: #150f33;
-}
-table {
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 12pt;
-	color: #150f33;
 }
 .container {
-	background: #785fff;
+	margin: auto;
+	width: 1000px;
+	background: rgb(21,22,24);
+}
+header {
+	background: rgb(10,11,12);
+	font-family: 'Cinzel Decorative', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 30pt;
+	padding: 20px;
+	padding-bottom: 0;
+	padding-bottom: 10px;
+}
+header span {
+	font-size: 13pt;
+	font-family: 'Alegreya Sans', sans-serif;
+	display: block;
+	color: rgb(104,109,113);
+	margin-left: 250px;
+}
+a {
+	color: rgb(255,171,92);
+	text-decoration: none;
+	opacity: 0.7;
+}
+a:hover {
+	opacity: 1;
+}
+nav {
+	background: rgb(10,11,12);
+	padding: 10px;
+	text-align: center;
+	font-size: 18pt;
+	font-variant: small-caps;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+}
+nav a {
+	padding: 14px;
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: none;
+	opacity: 0.6;
+	font-weight: bold;
+}
+nav a:hover {
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	opacity: 1;
+}
+.content {
+	min-height: 600px;
 	width: 800px;
 	margin: auto;
 }
-a {
-	color: #FFFF5E;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
-}
-h2 {
-	font-family: 'Cinzel', serif;
-	letter-spacing: 5px;
-	margin: 0;
-	padding: 0;
-	margin-top: 10px;
-	padding-bottom: 0px;
-	margin-bottom: 5px;
-	display: table;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-bottom: 1px solid;
-	margin-left: -30px;
-}
-h3 {
-	padding: 0;
-	margin: 0;
-}
-nav {
-	position: relative;
-	width: 900px;
-	margin: auto;
-	margin-top: 50px;
-}
-nav .navbox {
-	position: absolute;
-	right: 40;
-	bottom: 0;
-	padding-top: 10px;
-	padding-bottom: 10;
-	font-size: 15pt;
-	border-radius: 4px;
-}
-.navbox a {
-	padding: 7px 14px;
-	color: #FFFF5E;
-	text-decoration: none;
-	opacity: 0.7;
-	font-family: 'Cinzel', serif;
-	text-shadow:
-	   -1px -1px 0 #332085,
-	   1px -1px 0 #332085,
-	   -1px 1px 0 #332085,
-	   1px 1px 0 #332085;  
-	border-radius: 4px;
-	padding-bottom: 0px;
-	letter-spacing: 2px;
-}
-.navbox a:hover {
-	text-decoration: none;
-	opacity: 1.0;
-	border-bottom: 1px solid #FFFF5E;
-}
-.content {
-	padding: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
-}
-.container img {
-	margin: auto;
-}
-.comicpage {
-	border-radius: 30px;
-	margin: auto;
-	width: 650px;
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.comicnav {
-	width: 100%;
-}
-.comicnav td {
-	text-align: center;
-}
 footer {
 	text-align: center;
-	color: #fff;
-	font-size: 10pt;
-	padding: 50px;
+	padding: 20px;
+	font-size: 11pt;
 }
 footer a {
-	color: #fff;
+	color: rgb(104,109,113);
 	text-decoration: underline;
+	opacity: 1;
 }
 footer a:hover {
 	text-decoration: none;
+}
+.page {
+	margin: auto;
+	width: 600px;
+}
+h3 {
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.page .pagnav {
+	margin: auto;
+	text-align: center;
+}
+.page .pagenav a {
+	padding: 14px 14px;
+}
+.archive {
+	width: 350px;
+	margin: auto;
+	text-align: center;
+}
+.archive b {
+	display: block;
+	margin-top: 6px;
+}
+.cast .main {
+	position: relative;
+	width: 700px;
+	margin: auto;
+}
+.main .info {
+	background: rgb(10,11,12);
+	display: inline-block;
+	height: 257px;
+	width: 257px;
+	padding: 5px;
+	border-radius: 4px;
+}
+.character {
+	position: relative;
+}
+.character .info {
+	position: absolute;
+	top: 0;
+	left: 380;
+}
+.cast .back {
 }
