@@ -1,130 +1,234 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cinzel+Decorative&display=swap');
 body {
 	background: rgb(21,22,24);
-	border-top: 5px solid rgb(224,106,65);
 	margin: 0;
 	color: rgb(104,109,113);
 	font-size: 13pt;
 	font-family: 'Alegreya Sans', sans-serif;
+	border-top: 3px solid rgb(224,106,65);
 }
+table {font-size:13pt;}
 .container {
-	margin: auto;
 	width: 1000px;
-	background: rgb(21,22,24);
-}
-header {
-	background: rgb(10,11,12);
-	font-family: 'Cinzel Decorative', cursive;
-	color: #fff;
-	text-align: center;
-	font-size: 30pt;
-	padding: 20px;
-	padding-bottom: 0;
-	padding-bottom: 10px;
-}
-header span {
-	font-size: 13pt;
-	font-family: 'Alegreya Sans', sans-serif;
-	display: block;
-	color: rgb(104,109,113);
-	margin-left: 250px;
-}
-a {
-	color: rgb(255,171,92);
-	text-decoration: none;
-	opacity: 0.7;
-}
-a:hover {
-	opacity: 1;
-}
-nav {
-	background: rgb(10,11,12);
-	padding: 10px;
-	text-align: center;
-	font-size: 18pt;
-	font-variant: small-caps;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	letter-spacing: 3px;
-}
-nav a {
-	padding: 14px;
-	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-decoration: none;
-	opacity: 0.6;
-	font-weight: bold;
-}
-nav a:hover {
-	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	opacity: 1;
-}
-.content {
-	min-height: 600px;
-	width: 800px;
 	margin: auto;
-}
-footer {
-	text-align: center;
-	padding: 20px;
-	font-size: 11pt;
-}
-footer a {
-	color: rgb(104,109,113);
-	text-decoration: underline;
-	opacity: 1;
-}
-footer a:hover {
-	text-decoration: none;
-}
-.page {
-	margin: auto;
-	width: 600px;
 }
 h3 {
 	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	margin: 0;
+	text-transform: uppercase;
 }
-.page .pagnav {
+h4 {
+	margin: 0;
+	text-transform: uppercase;
+}
+.pagebreak {
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 1px;
+	background: linear-gradient(to left, transparent, rgb(176,95,58), transparent);
+	opacity: 0.5;
+	max-width: 600px;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: red;
+	border: 1px solid linear-gradient(to left, transparent, rgb(255,171,92), transparent);
+}
+a {
+	color: rgb(255,171,92);
+	text-decoration: none;
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+h3 a {
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+a:hover {
+	opacity: 1;
+}
+header {
+	background: rgb(10,11,12);
 	text-align: center;
+	font-size: 30pt;
+	color: #fff;
+	font-family: 'Cinzel Decorative', cursive;
+	margin-bottom: 20px;
+	padding: 20px;
 }
-.page .pagenav a {
-	padding: 14px 14px;
+header span {
+	font-size: 13pt;
+	color: rgb(104,109,113);
+	font-family: 'Alegreya Sans', sans-serif;
+	display: block;
+	margin-left: 300px;
 }
-.archive {
+nav {
+	font-size: 18pt;
+	font-family: 'Alegreya Sans', sans-serif;
+	margin-top: 30px;
+}
+nav a {
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.body {
+	position: relative;
+}
+.sidebar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 250px;
+}
+.sidebar .panel {
+	background: rgb(10,11,12);
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clip-path:
+		polygon(
+			0% 20px,                 /* top left */
+			20px 0%,                 /* top left */
+			calc(100% - 0px) 0%,    /* top right */
+			100% 0px,               /* top right */
+			100% calc(100% - 20px),  /* bottom right */
+			calc(100% - 20px) 100%,  /* bottom right */
+			0px 100%,               /* bottom left */
+			0 calc(100% - 0px)      /* bottom left */
+		);
+}
+.sidebar .panel a {display: block;}
+.sidebar .panel h4 {text-align:center;}
+.sidebar .panel img {
+	width:100%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.content {
+	width: 700px;
+	padding-left: 20px;
+	min-height: 500px;
+}
+.comic-archive {
 	width: 350px;
 	margin: auto;
 	text-align: center;
 }
-.archive b {
+.comic-archive b {
 	display: block;
-	margin-top: 6px;
+	margin-top: 10px;
 }
-.cast .main {
-	position: relative;
-	width: 700px;
+.castlist {
+	width: 500px;
 	margin: auto;
+	text-align: center;
 }
-.main .info {
-	background: rgb(10,11,12);
-	display: inline-block;
-	height: 257px;
-	width: 257px;
-	padding: 5px;
-	border-radius: 4px;
+.castlist .main {
+	margin-top: 5px;
+	margin-bottom: 20px;
 }
-.character {
+.castlist .main .character {
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	position: relative;
 }
-.character .info {
+.castlist .main .character .bio {
 	position: absolute;
 	top: 0;
-	left: 380;
+	right: 0;
+	width: 378px;
 }
-.cast .back {
+.castlist .main .character .bio b {display:block;}
+.castlist .main .character .bio u {text-decoration:none; font-weight:bold;}
+.castlist .support {
+	margin-top: 10px;
+}
+.castlist #deceased {opacity:.5;}
+.page {
+	width: 600px;
+	margin: auto;
+}
+.pagenav {
+	width: 100%;
+}
+.pagenav td {
+	max-width: 20%;
+	text-align: center;
+}
+.commentsection {
+	width: 600px;
+	margin: auto;
+}
+.comment {
+	background: rgb(10,11,12);
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clip-path:
+		polygon(
+			0% 20px,                 /* top left */
+			20px 0%,                 /* top left */
+			calc(100% - 0px) 0%,    /* top right */
+			100% 0px,               /* top right */
+			100% calc(100% - 20px),  /* bottom right */
+			calc(100% - 20px) 100%,  /* bottom right */
+			0px 100%,               /* bottom left */
+			0 calc(100% - 0px)      /* bottom left */
+		);
+}
+.reply {
+	margin-left: 50px;
+}
+.comment #profile {
+	max-width: 120px;
+	vertical-align: top;
+	text-align: center;
+}
+.comment #profile .profileimg {
+	background: linear-gradient(to bottom right, rgb(224,106,65), transparent, transparent);
+	padding: 2px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.comment #profile .profileimg img {
+	border-radius: 100%;
+	width: 100%;
+	filter: grayscale(100%);
+}
+.comment #body {
+	padding: 10px;
+}
+.comment #date {
+	width: 120px;
+	font-size: 10pt;
+}
+.comment #edit {
+	text-align: left;
+	padding: 5px;
+	padding-left: 10px;
+}
+.post {
+	width: 600px;
+	margin: auto;
+}
+.post #foot {
+	padding-top: 10px;
+	font-size: 10pt;
+}
+.right {float:right;}
+footer {
+	padding: 50px;
+	font-size: 11pt;
+	text-align: center;
 }
