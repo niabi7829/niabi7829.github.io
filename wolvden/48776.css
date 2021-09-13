@@ -76,6 +76,7 @@ img, .form-control, .note-btn {
 
 /* TABLES */
 .table {
+	background: rgba(187,220,255,0.4);
 }
 .table th {
 }
