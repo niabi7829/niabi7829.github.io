@@ -4,7 +4,7 @@
 /* FONT IMPORTS */
 @font-family {
 	font-family: 'Norse';
-	src: url('Norse.otf')
+	src: url('Norse.otf');
 }
 
 /* CSS CREDIT */
@@ -13,8 +13,8 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	color: #999;
 	position: absolute;
 	right: 3%;
-	bottom: 3%;
-	font-size: 9pt;
+	top: 10%;
+	font-size: 10pt;
 }
 
 /* WHOLE PAGE */
@@ -23,6 +23,7 @@ body {
 	background-size: cover;
 	color: #bbdcff;
 	font-family: 'Norse';
+	font-variant: small-caps;
 }
 	/* links */
 a {
@@ -89,7 +90,6 @@ img, .form-control, .note-btn {
 	background: rgba(187,220,255,0.2);
 }
 .table th {
-	font-family: 'Norse', serif;
 }
 .table th a {
 }
