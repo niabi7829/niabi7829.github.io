@@ -24,31 +24,149 @@ a:hover {
 }
 
 /* NAVBAR */
+#header .navbar-main, #footer {
+	background: transparent;
+}
+	/* main navbar & footer links */
+#header .navbar-main .nav-link {
+}
+#header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
+}
+#header .navbar-main .nav-link .fa,  #header .navbar-main .nav-link:hover .fa {
+}
 
 /* STATUS NAVBAR */
+#header .navbar-status {
+	background: transparent;
+}
+#header .navbar-status a {
+}
+#header .navbar-status a:hover {
+}
+#header .text-dark {
+}
 
 /* BREADCRUMB NAVBAR */
+#header .breadcrumb-nav {
+	background: transparent;
+}
+#breadcrumb-item.active {
+}
 
 /* MAIN CONTAINER */
+#main {
+	background: transparent;
+}
+.nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
+}
+.nav-tabs .nav-link.active {
+}
+.nav-tabs .nav-link {
+}
+#main .card {
+}
+#main .card img {
+}
+.card-header {
+}
+img, .form-control, .note-btn {
+}
+.card-img-top, .pt-1.pb-1, .table .top, .note-editor.note-frame .note-editing-area .note-editable {
+}
 
 /* TABLES */
+.table {
+}
+.table th {
+}
+.table th a {
+}
+.table th a:hover {
+}
+.table .subheader {
+}
+.table .left {
+}
+.table-striped tbody tr:nth-of-type(odd) {
+}
+.table tr.pup, .table tr.pup:nth-of-type(odd) {
+}
+.table td.bottom {
+}
+.table .table-striped tr:hover {
+}
 	/* dropdown selectors */
+.form-control, .s-chat-sidebar #label_currentChannel, .note-toolbar .note-btn {
+}
 	/* den/profile editing area */
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+}
+.note-toolbar {
+}
 
 /* SIDEBAR */
-	/* energy, pup survial chance */
+#sidebar {
+	background: transparent;
+}
+#sidebar .multi-column {
+}
+#sidebar .card {
+}
+#sidebar .card-body .w-50 div {
+}
+.progress {
+}
+	/* energy, pup survival chance */
+.bg-warning, #main .bg-success {
+}
 	/* lead wolf hunger, mood */
+#sidebar .bg-danger, .bg-primary {
+}
 	/* lead wolf HP, other wolves' hunger */
+#sidebar .bg-info, #main .bg-danger {
+}
 	/* lead wolf EXP, other wolves' HP */
+#sidebar .bg-success, #main .bg-info {
+}
 	/* chatbox */
+#chatboxContainer {
+}
+#chatMessagePinned.s-chat-message_pinned {
+}
+s-chat-sidebar #chatMessageList {
+}
+.s-chat-message:nth-child(odd), .s-chat-message:nth-child(even) {
+}
+.s-chat-message:nth-child(odd):hover, .s-chat-message:nth-child(even):hover {
+}
 
 /* BUTTONS */
 	/* updates & save changes */
+.btn-primary, btn-success {
+}
+.btn-primary:hover, .btn-primary:focus, .btn-success:hover, .btn-success:focus:
+}
 	/* expand territory */
+.btn-warning {
+}
+.btn-warning:hover, .btn-warning:focus;
 	/* report a bug */
+.btn-danger {
+}
+.btn-danger:hover
 
 /* OTHER */
 	/* information alerts */
+.alert-info {
+}
+.alert-success {
+}
 	/* scrollbars */
-	/* toltips */
+::-webkit-scrollbar {
+}
+::-webkit-scrollbar-thumb {
+}
+	/* tooltips */
+.tooltip-inner {
+}
 	/* html */
