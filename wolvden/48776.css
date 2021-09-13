@@ -16,11 +16,14 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 body {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://wallpaperaccess.com/full/9384.jpg") fixed no-repeat center !important;
 	background-size: cover;
+	color: #bbdcff;
 }
 	/* links */
 a {
+	color: #fda85c;
 }
 a:hover {
+	color: #ab6839;
 }
 
 /* NAVBAR */
@@ -76,7 +79,7 @@ img, .form-control, .note-btn {
 
 /* TABLES */
 .table {
-	background: rgba(187,220,255,0.4);
+	background: rgba(187,220,255,0.2);
 }
 .table th {
 }
