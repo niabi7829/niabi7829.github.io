@@ -67,6 +67,7 @@ a:hover {
 .nav-tabs .nav-link {
 }
 #main .card {
+	background: rgba(187,220,255,0.2);
 }
 #main .card img {
 }
@@ -92,6 +93,7 @@ img, .form-control, .note-btn {
 .table .left {
 }
 .table-striped tbody tr:nth-of-type(odd) {
+	background: transparent;
 }
 .table tr.pup, .table tr.pup:nth-of-type(odd) {
 }
@@ -115,6 +117,7 @@ img, .form-control, .note-btn {
 #sidebar .multi-column {
 }
 #sidebar .card {
+	background: rgba(187,220,255,0.2);
 }
 #sidebar .card-body .w-50 div {
 }
