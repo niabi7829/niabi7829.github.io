@@ -2,6 +2,10 @@
 	/* Please do not edit, share, or resell this code. */
 
 /* FONT IMPORTS */
+@font-family {
+	font-family: 'Norse';
+	src: url('Norse.otf') format('otf');
+}
 
 /* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
@@ -83,6 +87,7 @@ img, .form-control, .note-btn {
 	background: rgba(187,220,255,0.2);
 }
 .table th {
+	font-family: 'Norse', serif;
 }
 .table th a {
 }
