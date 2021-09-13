@@ -11,3 +11,44 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	right: 3%;
 	font-size: 12pt;
 }
+
+/* WHOLE PAGE */
+body {
+	background: url("https://wallpaperaccess.com/full/9384.jpg") fixed no-repeat center !important;
+	background-size: cover;
+}
+	/* links */
+a {
+}
+a:hover {
+}
+
+/* NAVBAR */
+
+/* STATUS NAVBAR */
+
+/* BREADCRUMB NAVBAR */
+
+/* MAIN CONTAINER */
+
+/* TABLES */
+	/* dropdown selectors */
+	/* den/profile editing area */
+
+/* SIDEBAR */
+	/* energy, pup survial chance */
+	/* lead wolf hunger, mood */
+	/* lead wolf HP, other wolves' hunger */
+	/* lead wolf EXP, other wolves' HP */
+	/* chatbox */
+
+/* BUTTONS */
+	/* updates & save changes */
+	/* expand territory */
+	/* report a bug */
+
+/* OTHER */
+	/* information alerts */
+	/* scrollbars */
+	/* toltips */
+	/* html */
