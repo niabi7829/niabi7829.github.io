@@ -2,10 +2,7 @@
 	/* Please do not edit, share, or resell this code. */
 
 /* FONT IMPORTS */
-@font-family {
-	font-family: 'Norse';
-	src: url('Norse.otf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 /* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
@@ -13,22 +10,24 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	color: #999;
 	position: absolute;
 	right: 3%;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 /* WHOLE PAGE */
 body {
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://wallpaperaccess.com/full/9384.jpg") fixed no-repeat center !important;
-	background-size: cover;
-	color: #bbdcff;
-	font-family: 'Norse';
+	background: rgb(21,22,24) !important;
+	color: rgb(104,109,113);
+	font-family: 'Verdana', sans-serif;
 }
 	/* links */
 a {
-	color: #fda85c;
+	color: rgb(255,171,92);
+	text-decoration: none;
+	opacity: 0.7;
+	text-transform: uppercase;
 }
 a:hover {
-	color: #ab6839;
+	opacity: 1;
 }
 
 /* NAVBAR */
