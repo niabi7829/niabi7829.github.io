@@ -20,13 +20,13 @@ body {
 	font-family: 'Verdana', sans-serif;
 }
 	/* links */
-a {
+a:not(img) {
 	color: rgb(255,171,92);
-	text-decoration: none;
 	opacity: 0.7;
 	text-transform: uppercase;
 }
 a:hover {
+	color: rgb(255,171,92);
 	opacity: 1;
 }
 
@@ -71,7 +71,7 @@ a:hover {
 .nav-tabs .nav-link {
 }
 #main .card {
-	background: rgba(187,220,255,0.2);
+	background: rgb(10,11,12);;
 }
 #main .card img {
 }
@@ -84,9 +84,10 @@ img, .form-control, .note-btn {
 
 /* TABLES */
 .table {
-	background: rgba(187,220,255,0.2);
+	background: rgb(10,11,12);
 }
 .table th {
+	background: transparent;
 }
 .table th a {
 }
@@ -95,6 +96,7 @@ img, .form-control, .note-btn {
 .table .subheader {
 }
 .table .left {
+	background: transparent;
 }
 .table-striped tbody tr:nth-of-type(odd) {
 	background: transparent;
@@ -121,7 +123,19 @@ img, .form-control, .note-btn {
 #sidebar .multi-column {
 }
 #sidebar .card {
-	background: rgba(187,220,255,0.2);
+	background: rgb(10,11,12);
+	clip-path:
+		polygon(
+			0% 20px,                 /* top left */
+			20px 0%,                 /* top left */
+			calc(100% - 0px) 0%,    /* top right */
+			100% 0px,               /* top right */
+			100% calc(100% - 20px),  /* bottom right */
+			calc(100% - 20px) 100%,  /* bottom right */
+			0px 100%,               /* bottom left */
+			0 calc(100% - 0px)      /* bottom left */
+		);
+	border: none;
 }
 #sidebar .card-body .w-50 div {
 }
