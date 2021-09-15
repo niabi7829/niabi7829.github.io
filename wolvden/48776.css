@@ -162,6 +162,8 @@ img, .form-control, .note-btn {
 /* SIDEBAR */
 #sidebar {
 	background: transparent;
+	width: 0px;
+	overflow: hidden;
 }
 #sidebar .multi-column {
 }
