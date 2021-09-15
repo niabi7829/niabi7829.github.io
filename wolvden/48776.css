@@ -183,6 +183,7 @@ img, .form-control, .note-btn {
 #sidebar .card-body .w-50 div {
 }
 .progress {
+	margin: 1px;
 }
 #sidebar h4 {
 	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
@@ -192,6 +193,17 @@ img, .form-control, .note-btn {
 	margin-top: 15px;
 	text-transform: uppercase;
 	font-family: 'Reggae One', serif;
+}
+#sidebar h4 a {
+	-webkit-background-clip: none;
+	-webkit-text-fill-color: normal;
+	color: rgb(255,171,92);
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+#sidebar h4a:hover {
+	color: rgb(255,171,92);
+	opacity: 1;
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
