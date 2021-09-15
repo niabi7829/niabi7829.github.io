@@ -6,7 +6,7 @@
 
 /* CSS CREDIT */
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
-	content: "CSS by EluNiabi (#48776)";
+	content: "CSS by Elu (#48776)";
 	color: #999;
 	position: absolute;
 	right: 3%;
@@ -163,6 +163,15 @@ img, .form-control, .note-btn {
 }
 .progress {
 }
+#sidebar h4 {
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0;
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-family: 'Reggae One', serif;
+}
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
 }
@@ -192,7 +201,7 @@ s-chat-sidebar #chatMessageList {
 .btn-primary, btn-success {
 	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 	-webkit-background-clip: text;
-	opacity: 0.7
+	opacity: 0.7;
 	-webkit-text-fill-color: transparent;
 	border: 2px solid rgb(224,106,65);
 }
@@ -204,7 +213,7 @@ s-chat-sidebar #chatMessageList {
 .btn-warning {
 	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 	-webkit-background-clip: text;
-	opacity: 0.7
+	opacity: 0.7;
 	-webkit-text-fill-color: transparent;
 	border: 2px solid rgb(224,106,65);
 }
@@ -216,7 +225,7 @@ s-chat-sidebar #chatMessageList {
 .btn-danger {
 	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 	-webkit-background-clip: text;
-	opacity: 0.7
+	opacity: 0.7;
 	-webkit-text-fill-color: transparent;
 	border: 2px solid rgb(224,106,65);
 }
