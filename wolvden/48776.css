@@ -195,19 +195,19 @@ img, .form-control, .note-btn {
 }
 	/* energy, pup survival chance */
 .bg-warning, #main .bg-success {
-	background: -webkit-linear-gradient(to left, rgb(255,198,104), rgb(224,106,65));
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 }
 	/* lead wolf hunger, mood */
 #sidebar .bg-danger, .bg-primary {
-	background: -webkit-linear-gradient(to left, rgb(255,198,104), rgb(224,106,65));
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 }
 	/* lead wolf HP, other wolves' hunger */
 #sidebar .bg-info, #main .bg-danger {
-	background: -webkit-linear-gradient(to left, rgb(255,198,104), rgb(224,106,65));
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 }
 	/* lead wolf EXP, other wolves' HP */
 #sidebar .bg-success, #main .bg-info {
-	background: -webkit-linear-gradient(to left, rgb(255,198,104), rgb(224,106,65));
+	background: -webkit-linear-gradient(rgb(255,198,104), rgb(224,106,65));
 }
 	/* chatbox */
 #chatboxContainer {
