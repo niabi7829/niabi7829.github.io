@@ -103,6 +103,9 @@ h1 {
 #main .card {
 	background: rgb(10,11,12);;
 }
+#main .card-body {
+	background: transparent;
+}
 #main .card img {
 }
 .card-header {
