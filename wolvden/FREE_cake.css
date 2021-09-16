@@ -24,6 +24,7 @@ a:hover {
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
+	background: transparent;
 }
 	/* main navbar & footer links */
 #header .navbar-main .nav-link {
