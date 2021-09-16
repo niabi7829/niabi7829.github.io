@@ -15,11 +15,15 @@ th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	/* WHOLE PAGE */
 body {
 	background: #6a3e4f url("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-body.gif") repeat-x top;
+	color: #9b888f;
+	font-family: Verdana, Geneva, sans-serif;
 }
 	/* links */
 a {
+	color: #9b888f;
 }
 a:hover {
+	color: #dd97b3;
 }
 
 	/* NAVBAR */
