@@ -72,6 +72,9 @@ h1 {
 /* MAIN CONTAINER */
 #main {
 	background: transparent;
+	width: 100%;
+}
+.container {
 	width: 960px;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
