@@ -117,8 +117,8 @@ img, .form-control, .note-btn {
 #sidebar .multi-column {
 }
 #sidebar .card {
-	background: rl("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
-	border: #aa6581;
+	background: url("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
+	border-color: #aa6581;
 }
 #sidebar .card a {
 }
