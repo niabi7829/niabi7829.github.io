@@ -42,6 +42,7 @@ h1 {
 #header .navbar-main .nav-link {
 	font-family: 'Caveat', cursive;
 	color: #87224a;
+	text-decoration: none;
 }
 #header .navbar-main .nav-link:hover, #footer a:hover, #footer nav .nav-item .nav-link:hover {
 }
