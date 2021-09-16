@@ -51,6 +51,7 @@ a:hover {
 
 	/* BREADCRUMB NAVBAR */
 #header .breadcrumb-nav {
+	background: #aa6581;
 }
 #breadcrumb-item.active {
 }
@@ -107,10 +108,12 @@ img, .form-control, .note-btn {
 	/* SIDEBAR */
 #sidebar {
 	background: #f5f5f5;
+	padding-top: 20px;
 }
 #sidebar .multi-column {
 }
 #sidebar .card {
+	background: url("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
 }
 #sidebar .card a {
 }
