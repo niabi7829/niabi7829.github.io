@@ -27,6 +27,7 @@ a:hover {
 	color: #dd97b3;
 }
 h1 {
+	font-family: 'Caveat', cursive;
 	color: #87224a;
 	font-style: italic;
 }
@@ -129,6 +130,7 @@ img, .form-control, .note-btn {
 #sidebar .card-body .w-50 div {
 }
 #sidebar h4 {
+	font-family: 'Caveat', cursive;
 	color: #87224a;
 	font-style: italic;
 }
