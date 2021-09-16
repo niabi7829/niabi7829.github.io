@@ -132,6 +132,7 @@ img, .form-control, .note-btn {
 }
 #sidebar .card {
 	background: url("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
+	background-size: cover;
 	border-color: #aa6581;
 }
 #sidebar .card a {
@@ -148,12 +149,10 @@ img, .form-control, .note-btn {
 }
 .progress {
 	background: #f5f5f5;
-	padding: 1px;
+	margin: 1px;
 }
 	/* energy, pup survival chance */
-.bg-warning, #main .bg-success, 
-#sidebar .bg-danger, .bg-primary,
-#sidebar .bg-success, #main .bg-info {
+.bg-warning, #main .bg-success, #sidebar .bg-danger, .bg-primary, #sidebar .bg-success, #main .bg-info {
 	background: #aa6581;
 }
 	/* chatbox */
