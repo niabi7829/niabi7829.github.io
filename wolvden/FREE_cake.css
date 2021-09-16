@@ -52,6 +52,7 @@ h1 {
 	/* STATUS NAVBAR */
 #header .navbar-status {
 	background: #aa6581;
+	text-decoration: none;
 }
 #header .navbar-status a {
 }
@@ -64,9 +65,10 @@ h1 {
 #header .breadcrumb-nav {
 	background: #aa6581;
 }
-#breadcrumb-item a {
+.breadcrumb-nav a {
 	color: #f5f5f5;
 	opacity: 0.9;
+	text-decoration: none;
 }
 #breadcrumb-item.active {
 	color: #f5f5f5;
@@ -95,6 +97,7 @@ img, .form-control, .note-btn {
 
 	/* TABLES */
 .table {
+	background: url("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
 }
 .table th, .table td.bottom {
 }
@@ -104,9 +107,8 @@ img, .form-control, .note-btn {
 }
 .table .subheader {
 }
-.table .left {
-}
-.table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
+.table .left, table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background-transparent;
 }
 .table-striped tbody tr:nth-of-type(even), .table-striped tbody tr:nth-of-type(odd), .table tr.pup, .table tr.pup:nth-of-type(odd) a {
 }
@@ -145,18 +147,14 @@ img, .form-control, .note-btn {
 	font-size: 27px;
 }
 .progress {
+	background: #f5f5f5;
+	padding: 1px;
 }
 	/* energy, pup survival chance */
-.bg-warning, #main .bg-success {
-}
-	/* lead wolf hunger, mood */
-#sidebar .bg-danger, .bg-primary {
-}
-	/* lead wolf HP, other wolves' hunger */
-#sidebar .bg-info, #main .bg-danger {
-}
-	/* lead wolf EXP, other wolves' HP */
+.bg-warning, #main .bg-success, 
+#sidebar .bg-danger, .bg-primary,
 #sidebar .bg-success, #main .bg-info {
+	background: #aa6581;
 }
 	/* chatbox */
 #chatboxContainer {
