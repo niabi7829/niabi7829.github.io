@@ -52,7 +52,8 @@ a:hover {
 }
 
 	/* MAIN CONTAINER */
-#main {;
+#main {
+	background: #f5f5f5;
 }
 .nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link, .nav-tabs .nav-link:hover {
 }
@@ -101,6 +102,7 @@ img, .form-control, .note-btn {
 
 	/* SIDEBAR */
 #sidebar {
+	background: #f5f5f5;
 }
 #sidebar .multi-column {
 }
