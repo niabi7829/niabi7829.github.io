@@ -117,13 +117,18 @@ img, .form-control, .note-btn {
 #sidebar .multi-column {
 }
 #sidebar .card {
-	background: url("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
+	background: rl("https://freewebsitetemplates.com/preview/cakewebsitetemplate/images/bg-foodstory.gif") repeat-y top center;
+	border: #aa6581;
 }
 #sidebar .card a {
 }
 #sidebar .card a:hover {
 }
 #sidebar .card-body .w-50 div {
+}
+#sidebar h4 {
+	color: #87224a;
+	font-style: italic;
 }
 .progress {
 }
