@@ -36,6 +36,7 @@ a:hover {
 	
 	/* STATUS NAVBAR */
 #header .navbar-status {
+	background: #aa6581;
 }
 #header .navbar-status a {
 }
