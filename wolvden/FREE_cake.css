@@ -25,6 +25,10 @@ a {
 a:hover {
 	color: #dd97b3;
 }
+h1 {
+	color: #87224a;
+	font-style: italic;
+}
 
 	/* NAVBAR */
 #header .navbar-main, #footer {
